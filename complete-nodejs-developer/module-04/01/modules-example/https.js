@@ -1,5 +1,6 @@
-import { send } from "./request.mjs";
-import { read } from "./response.mjs";
+// import { send } from "./request.mjs";
+const { send } = require("./request");
+const { read } = require("./response");
 
 function req(url, data) {
   send(url, data);

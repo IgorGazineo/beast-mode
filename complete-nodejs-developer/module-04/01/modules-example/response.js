@@ -2,6 +2,6 @@ function decrypt(data) {
   return "decrypted data";
 }
 
-export const read = function () {
+module.exports.read = function () {
   return decrypt("data");
 };
