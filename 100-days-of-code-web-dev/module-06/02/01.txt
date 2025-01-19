@@ -1,0 +1,1 @@
+A prática desse módulo será executada fora do caminho da pasta "beast-mode" para não haver colisão com o gerenciamento do git neste projeto.
