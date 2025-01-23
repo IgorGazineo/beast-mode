@@ -1,0 +1,121 @@
+
+Aula - 14
+
+na pasta "assets", crie uma subpasta "scripts" e dentro dessa pasta crie um arquivo "app.js" e link este arquivo ao index.html
+
+------------------------------------------------------
+
+Aula - 16
+
+1 - crie um arquivo "util.js" na pasta "scripts".
+
+no arquivo util.js, declare uma variável "apiKey" recebendo o valor de uma string 'adnfgt56'.
+
+faça essa variável ficar disponível para ser exportada com a palavra-chave "export".
+
+importe essa variável no arquivo app.js e exiba-a no console.
+
+comente as linhas de exportação e importação e o console.log.
+
+2 - no arquivo util.js, exporte o valor de um número 18 com as palavras-chave "export default".
+
+importe esse valor no arquivo app.js e exiba-o no console.
+
+comente as linhas de exportação e importação e o console.log.
+
+3 - no arquivo util.js declare uma variável "userName1" recebendo o valor de uma string 'Isabella'.
+
+declare uma variável "userName1" recebendo uma string 'Igor'.
+
+faça essas variáveis ficaem disponíveis para serem exportadas com a palavra-chave "export".
+
+exporte um valor 'Luara' com as palavras-chave "export default".
+
+no arquivo app.js, importe todos esses valores em uma varipavel "usersName" e exiba esse objeto no console. 
+
+comente as linhas de exportação e importação e o console.log.
+
+------------------------------------------------------
+
+Aula - 22
+
+crie uma class "User" que vai retornar um objeto com um nome, uma idade e uma função que ao ser chamada, exibe 
+no console a frase "My name is NOME and I am IDADE years old."
+
+invoque uma instância dessa classe passando como argumento para o nome a string "Igor" e para a idade o número 37.
+
+passe o retorno desse objeto para uma variável "user1" e exiba-o no console.
+
+comente o código criado.
+
+------------------------------------------------------
+
+Aula - 23
+
+1 - crie uma variável "hobbies" com um array contendo os itens "Sports", "Cooking" e "Coding".
+
+crie uma variável "newHobbies", e com o método "map" faça essa variável receber os valores 
+da variável "hobbies" com a seguinte formatação: ["Sports-1", "Cooking-2", "Coding-3"]
+
+exiba a variável "newHobbies" no console e depois comente o código criado.
+
+2 - crie uma variável "names" com um array contendo os nomes "Isabella", "Luara" e "Igor".
+
+crie uma variável "arrayOfObjectNames", e com o método "map" faça essa variável receber um objeto
+de nomes a partir da variável "names". Ex: [{name: 'Isabella'}, {name: 'Luara'}]
+
+------------------------------------------------------
+
+Aula - 24
+
+1 - crie uma constante "userNameData" que recebe um array que tem 2 itens: 'Igor' e 'Rebouças'
+
+com o recurso de destructuring, crie duas constantes "firstName" e "lastName" e faça essas constantes 
+recebere a string referente ao valor correto que está no array "userNameData".
+
+exiba no console o resultado de fristName e lastName e comente o código criado.
+
+2 - crie uma constante "userNameData" que recebe um objeto que tem 2 propriedades: name e age
+passando como valor o seu nome e sua idade.
+
+com o recurso de destructuring, crie duas constantes "name" e "age" e faça essas constantes 
+receberem a valor das propriedades name e age do objeto "userNameData".
+
+exiba name e age no console e depois comente o código criado.
+
+------------------------------------------------------
+
+Aula - 26
+
+1 - crie um array de strings "guests1" com os valores 'Isabella', 'Luara' e 'Luana'.
+
+crie um array de strings "guests2" com os valores 'Igor', 'Eduardo' e 'Gustavo'.
+
+crie um novo array "totalGuests" que deve receber os valores dos itesn de "guests1" e "guests2".
+
+faça isso usando o operador spread e depois comente o código criado.
+
+2 - crie uma constante "guestList" que recebe o objeto { guest1: 'Isabella', guest2: 'Luara'}.
+
+crie uma constante "guestListUpdated" que recebe as propriedades do objeto "guestList", com
+uma nova propriedade "guest3" com o valor "Igor".
+
+faça isso usando o operador spread e exiba "guestListUpdated" no console.
+
+comente o código criado.
+
+------------------------------------------------------
+
+Aula - 29 
+
+
+
+
+
+
+
+
+
+
+
+
