@@ -1,0 +1,110 @@
+Aula - 9
+
+1 - crie um arquivo "app.js" e carregue o módulo file system e atribua a uma constante "fs".
+
+com o módulo file system carregado no arquivo, utilizando o método "writeFileSync", crie 
+um arquivo de texto "notes" com o seguinte texto: "This file was created by Node.js!"
+
+2 - substitua o segundo argumento do método pelo texto: "My name is Andrew." e execute o
+arquivo app.js através do node.
+
+3 - acrescente um texto " I live in Philadelphia." no arquivo "notes.txt" utilizando o método appendFileSync.
+
+------------------------------------------------------------
+
+Aula - 10
+
+1 - delete todo o código no arquivo "app.js".
+
+crie um arquivo "utils.js" que exibe no console o texto "Hello from utils.js".
+
+execute este arquivo utilizando o método "require" no arquivo app.js e execute o arquivo
+app.js no node.
+
+2 - no arquivo "utils.js" crie uma constante "name" que recebe o valor "Mike".
+
+crie uma função "add" e que possui 2 parâmetros "a" e "b" e retorna a soma dos parâmetros.
+
+faça com que um objeto contento a constante "name" e a função "add", fique disponível para ser
+exportado do arquivo "utils.js"
+
+importe este objeto no arquivo app.js e utilizi-o para garantir que o objeto foi exportado
+com sucesso.
+
+3 - apague o código do arquivo "app.js", delete "utils.js" e ecrie o arquivo "notes.js".
+
+crie uma função "getNotes" que retorna a string "Your notes..."
+
+exporte a função "getNotes" e importe-a no arquivo "app.js" e chame a função printando
+o seu retorno no console.
+
+------------------------------------------------------------
+
+Aula - 11
+
+faça com que o seu diretório tenha acesso e gerência aos pacotes(módulos) do npm.
+
+para isso, execute o comando "npm init" ou "npm init -y".
+
+instale a versão 10.8.0 do pacote "validator" executando o comando "npm i validator@10.8.0" 
+ou "npm install validator@10.8.0".
+
+crie um arquivo ".gitignore" e ignore o diretório "node_modules" que foi criado.
+
+carregue o módulo "validator" no arquivo "app.js" e atribua-o a uma constante "validator".
+
+crie um objeto "emails" com as propriedades "email1" e "email2" e os valores "jogaocarlos.com"
+e "igorluiz@mundo.com".
+
+utilize o método "isEmail" do pacote "validator" para validar as 2 propriedades do objeto acima
+e exiba o resultado no console no formato "o email EMAIL é válido" para emails válidos, e 
+"o email EMAIL é inválido" para emails inválidos. 
+
+------------------------------------------------------------
+
+Aula - 12
+
+1 - delete o diretório "node_modules" e tente executar o arquivo "app.js".
+
+para corrigir o erro, reinstale as dependências do projeto com o comando "npm install" ou "npm i" 
+e execute o arquivo "app.js" novamente.
+
+2 - instale no projeto o pacote "chalk" na versão "2.4.1" e carregue-o em "app.js" numa constante 
+"chalk".
+
+utilize o pacote para printar o texto das validações dos emails.
+
+printe em verde os emails válidos e em vermelho os inválidos.
+
+------------------------------------------------------------
+
+Aula - 13
+
+instale como dependência de desenvolvimento, a versão 1.18.5 do pacote "nodemon" no seu projeto. 
+
+para isso, execute o comando "npm install nodemon --save-dev".
+
+para executar o pacote, execute o comando "npx nodemon nome-do-arquivo" substituindo 
+"nome-do-arquivo" pelo arquivo que você quer executar com o node.
+
+exiba algo no console e faça alguma alteração no projeto para garantir que o pacote está rodando 
+corretamente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
