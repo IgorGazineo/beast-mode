@@ -1,0 +1,17 @@
+Aula 16
+
+1 - crie um arquivo "hello.js" e atribua a uma constante "mission" a string "learn".
+
+crie uma estrutura de controle de fluxo para que caso a constante "mission" tenha o valor
+igual a "learn", a string "Time to write some Node code!" seja printada no console.
+
+caso a constante tenha outro valor, printe no console a string "Is MISSION really more fun?".
+
+execute o arquivo com node
+
+2 - faça com que o valor de "mission" seja passado por linha de comando utilizando a propriedade
+"argv" do objeto global "process".
+
+execute o arquivo passando como terceiro argumento o valor "explore".
+
+-----------------------------------------------------------------------
