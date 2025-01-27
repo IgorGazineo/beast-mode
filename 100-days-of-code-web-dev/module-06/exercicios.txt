@@ -1,0 +1,186 @@
+Aula - 99/100
+
+abra o terminal powershell e execute o comando "pwd" para indicar o caminho do 
+diretório que você está (working directory).
+
+execute o comando "cd /" para ir para o diretório raiz da sua máquina.
+
+execute o comando "cd ~" para ir ao diretório pessoal(home directory) da sua máquina.
+
+navegue até o diretório Desktop e execute o comando "echo 'hello world' > hello.txt" 
+para criar um arquivo "hello.txt" com o conteúdo "hello world" e depois dele esse arquivo.
+
+----------------------------------------------------------------
+
+Aula - 104
+
+neste diretório, crie uma pasta com a próxima numeração e dentro dessa pasta, crie
+um arquivo "test.txt" com o texto "This is my first commit!".
+
+inicialize o versionamento do git nessa pasta com o comando "git init".
+
+execute o comando "git status" para ter informações sobre o versionamento do git.
+
+crie um arquivo "ignore-me.txt" com o texto "esse arquivo não deve ir para a staged area do git".
+
+execute o comando "git status".
+
+agora execute o comando "git add . -- :!ignore-me.txt" para mandar todos os arquivos para a staged
+area do git, exceto o arquivo "ignore-me.txt".
+
+execute o comando "git status" novamente.
+
+execute o comando "git commit -m" com a mensagem "added test.txt file".
+
+execute o comando "git status" e depois "git log" para ver a lista de commits na sua branch.
+
+adicione o texto "And here we go with commit #2!" na linha 3 do arquivo "test.txt" , 
+crie um arquivo "second-commit.txt" e execute o comando "git status".
+
+crie um arquivo ".gitignore" para ignorar o arquivo "ignore-me.txt" e execute o comando
+"git status".
+
+execute o comando "git add ." e comite os arquivos com a mensagem 
+"changed test.txt and added second-commit.txt".
+
+delete os arquivos ".gitignore" e "ignore-me.txt" e comite a mudança com a mensagem 
+"deleted .gitignore and ignore-me.txt".
+
+execute o comando "git status" e depois "git log".
+
+ao final do exercício/módulo, execute o comando "Remove-Item -Recurse -Force .git" para 
+cancelar o gerenciamento do git na primeira pasta criada.
+
+----------------------------------------------------------------
+
+Aula - 106
+
+part 1
+
+execute o comando "git branch" para listar as branches no seu repositório.
+
+execute o comando "git branch -m main" modificar o nome da sua branch para "main" e depois
+execute o comando "git branch" para checar a modificação.
+
+execute o comando "git checkout -b feature" para criar uma nova branch "feature" com os mesmos
+commits da branch "main".
+
+execute o comando "git branch" para listar as branches.
+
+execute o comando "git log" para listar os commites das branches.
+
+crie uma pasta "new-feature" e dentro dessa pasta, crie um arquivo "feature.txt" e execute
+o comando "git status".
+
+execute "git add ." e "git commit" com a mensagem "added new feature"
+
+execute "git log" e depois "git checkout main" para mudar para a branch "main" e depois
+execute "git branch" para chegar a mudança de branch.
+
+execute o comando "git merge feature" para adicionar os commits da branch "feature" na
+branch "main".
+
+part 2
+
+modifique o texto da linha 1 do arquivo "test.txt" para "This is another commit!", comite
+essa mudança com a mensagem "updated test.txt" e execute "git log".
+
+execute "git checkout feature" para mudar para a branch "feature" e modifique o texto da linha 1 
+do arquivo "test.txt" para "This is again a commit!".
+
+comite a mudança com a mensagem "changed test.txt content" e execute "git log".
+
+mude para a branch "main" e execute "git merge feature" para juntar os commits da branch feature.
+
+aceite as modificações da branch "feature" e execute "git status".
+
+comite as modificações da branch "feature" com a mensagem "merged text.txt from feature" e
+execute "git log".
+
+----------------------------------------------------------------
+
+Aula - 107
+
+part 1
+
+crie uma branch "delete" com os commits da branch "main" e mude para a nova branch.
+
+no diretório de trabalho, crie uma pasta "deleting-data" com o arquivo "file1.txt" e comite
+com a mensagem "added file1.txt".
+
+adicione o texto "Just some text to dive deeper here." na linha 1 do arquivo "file1.txt" e comite
+com a mensagem "added text to file1.txt".
+
+adicione o texto "Some more text!" na linha 3 do arquivo "file1.txt" e comite com a mensagem
+"added more text".
+
+adicione na pasta "deleting-data" o arquivo "file2.txt" e comite com a mensgagem 
+"added file2.txt".
+
+adicione na pasta "deleting-data" o arquivo "file3.txt" e comite com a mensagem "file3.txt".
+
+execute o comando "git log".
+
+delete o arquivo "file3.txt" e execute "git status".
+
+sertifique-se de estar no caminho da pasta "deleting-data", execute o comando 
+"git rm file2.txt" e execute "git status" e veja a diferença.
+
+execute "git add file3.txt" e comite as modificações com a mensagem "deleted file2 and file3".
+
+part 2
+
+execute "git log" para listar os commits e verifique o ultimo commit.
+
+execute "git reset --hard HEAD~1" para remover o ultimo commit da branch atual.
+
+execute "git log" e verifique que o ultimo commit foi removido.
+
+execute "git status" para checar a staged area e depois "git branch" para listar as branches.
+
+execute "git branch -D feature" para deletar a branch "feature" e execute "git branch".
+
+part 3
+
+adicione o texto "More content!" na linha 5 do arquivo "file1.txt" e execute "git status".
+
+execute "git checkout -- ." ou "git checkout -- file1.txt" para restaurar o arquivo para
+o estado anterior e execute "git status".
+
+adicione o texto "Some more content!" novamente na linha 5 do arquivo "file1.txt", execute
+"git status" e execute "git restore ." ou "git restore file1.txt".
+
+adicione o texto "Add some text!" na linha 5 do arquivo "file1.txt" e execute o arquivo 
+"git checkout main" para tentar mudar para a branch "main".
+
+execute "git checkout -- file1.txt" ou "git restore file1.txt" para restaurar o arquivo.
+
+part 4
+
+adicione o texto "Changes to be staged!" na linha 5 do arquivo "file1.txt" e execute
+"git status".
+
+execute o comando "git restore --staged file1.txt" e execute "git status".
+
+adicione novamente o texto "Changes to be staged!" na linha 5 do arquivo "file1.txt" e 
+execute "git status".
+
+execute o comando "git reset file1.txt" e execute "git status".
+ 
+execute "git checkout -- file1.txt" ou "git restore file1.txt" para restaurar o arquivo e
+execute "git status".
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
