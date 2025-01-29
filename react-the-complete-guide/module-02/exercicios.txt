@@ -1,6 +1,9 @@
 
 Aula - 14
 
+copie e cole o arquivo "00-starting-js-proj" e renomei-o com o próximo número e abra-o no
+vs-code.
+
 na pasta "assets", crie uma subpasta "scripts" e dentro dessa pasta crie um arquivo "app.js" e link este arquivo ao index.html
 
 ------------------------------------------------------
@@ -25,7 +28,7 @@ comente as linhas de exportação e importação e o console.log.
 
 3 - no arquivo util.js declare uma variável "userName1" recebendo o valor de uma string 'Isabella'.
 
-declare uma variável "userName1" recebendo uma string 'Igor'.
+declare uma variável "userName2" recebendo uma string 'Igor'.
 
 faça essas variáveis ficaem disponíveis para serem exportadas com a palavra-chave "export".
 
@@ -105,17 +108,3 @@ faça isso usando o operador spread e exiba "guestListUpdated" no console.
 comente o código criado.
 
 ------------------------------------------------------
-
-Aula - 29 
-
-
-
-
-
-
-
-
-
-
-
-
