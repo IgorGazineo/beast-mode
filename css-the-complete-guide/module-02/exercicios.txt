@@ -14,5 +14,65 @@ valor "#ff1b68".
 
 Aula - 16
 
+adicione no css um seletor "h1" com a propriedade "color" com o valor "white" e a propriedade
+"font-family" com o valor "sans-serif".
+
+link as fontes do google fonts ao arquivo html, acima do link que referencia o arquico css.
+
+lik das fontes: <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+
+substitua o valor da propriedade "font-family" do seletor "h1" para "'Anton', sans-serif".
+
+--------------------------------------------------------------------------------
+
+Aula - 17
+
+adicione um ID "product-overview" na primeira section do html e um ID "plans" na segunda
+section.
+
+no css, substitua o seletor "section" por um seletor de ID com o ID da primeira section.
+
+adicione uma classe "section-title" no elemento h1 da segunda section e no arquivo css
+adicione um seletor de classe com essa classe.
+
+no seletor ".section-title", adicione a propriedade "color" com o valor "#2ddf5c".
+
+--------------------------------------------------------------------------------
+
+Aula - 19
+
+adicione um seletor "body" no css com a propriedade "font-family" contendo o valor 
+"'Montserrat', sans-serif".
+
+abaixo do h1 da segunda section do html, adicione um elemento "p" com o conteúdo
+"Make sure you get the most for your money!".
+
+--------------------------------------------------------------------------------
+
+Aula - 20
+
+transforme o seletor "h1" em uma combinação de seletores onde apenas o h1 que é filho
+da section de ID "product-overview" seja selecionado.
+
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
