@@ -1,0 +1,18 @@
+Aula - 15
+
+copie a pasta "00-starting" e cole e renomei com o próximo número.
+
+adicione uma nova section ao arquivo "index.html" contendo um h1 com o conteúdo "Choose Your
+Plan".
+
+crie um arquivo "main.css" e linque-o ao arquivo html.
+
+no arquivo css, adicione um seletor "section" que contê uma propriedade "background" com o 
+valor "#ff1b68".
+
+--------------------------------------------------------------------------------
+
+Aula - 16
+
+
+ 
