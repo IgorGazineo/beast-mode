@@ -1,0 +1,23 @@
+Aula - 36
+
+crie um diretório com o ultimo número na lista de pastas. Ex 01, 02...
+
+nesse diretório, crie um arquivo "events.js".
+
+execute o módulo "events" com o método "require" e passe o retorno para uma constante 
+"EventEmitter" que será uma classe.
+
+crie uma constante "celebrity" que recebe o retorno de uma nova instância da classe 
+"EventEmitter" e exiba no console o valor de "celebrity".
+
+execute o método "on" do objeto "celebrity", passando como primeiro argumento a string 
+"race win", e como segundo argumento uma função de callback que exibe no console a string
+"Congratulations! You are the best!".
+
+copie e cole o código que foi criado acima na próxima linha, modificando a mensagem do 
+console para "Boo I could have done better than that!".
+
+execute o método "emit" do objeto "celebrity" passando como argumento o evento "race win"
+que foi criado anteriormente e execute o arquivo "events.js" no node.
+
+
