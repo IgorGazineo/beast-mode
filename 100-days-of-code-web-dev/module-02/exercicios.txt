@@ -1,0 +1,218 @@
+Aula - 17
+
+crie uma pasta com o próximo número e dentro crie um arquivo "index.html" e abra-o no vs-code.
+
+adicione ao arquivo um elemento "h1" com o conteúdo "Hello World!".
+
+----------------------------------------------------------------------------
+
+Aula - 19
+
+modifique o conteúdo do h1 para "Max' Challenge for Wednesday, August 4th".
+
+abaixo do h1, adicione um elemento "p" com o conteúdo 
+"Learn about the basics of web development - specifically dive into HTML & CSS.".
+
+----------------------------------------------------------------------------
+
+Aula - 26
+
+adicione um terceiro elemento "p" com o conteúdo 
+"I'll achieve this goal by diving into more learning resources.".
+
+transforme o conteúdo "more learning resources" em um link (elemento "a") que direciona
+o usuário para o site "https://google.com" através do atributo "href".
+
+----------------------------------------------------------------------------
+
+Aula - 28
+
+no topo do código, adicione um elemento "style" contendo um seletor "h1" e um "p".
+
+os dois seletores devem conter as seguintes propriedades e valores:
+font-family: sans-serif;
+text-align: center;
+color: rgb(83, 75, 75);
+
+----------------------------------------------------------------------------
+
+Aula - 30
+
+crie uma estrutura básica HTML e passe o elemento "style" para dentro do elemento "head"
+e os outros elementos para dentro do elemento "body".
+
+modifique o valor do atributo "lang" no elemento "html" para "pt-br".
+
+no elemento "title" adicione o conteúdo "My Daily Challenge".
+
+----------------------------------------------------------------------------
+
+Aula - 34
+
+no elemento "style", adicione um seletor "a" com as propriedades e valores:
+color: rgb(167, 1, 78);
+text-decoration: none;
+
+adicione um pseudo-seletor "a:hover" com a propriedade e valor:
+text-decoration: underline;
+
+----------------------------------------------------------------------------
+
+Aula - 36
+
+crie um arquivo "daily-challenge.css" no diretório e passe o código css do elemento "style"
+para esse arquivo.
+
+link o arquivo css no arquivo "index.html".
+
+----------------------------------------------------------------------------
+
+Aula - 39
+
+adicione um ID "todays-challenge" no primeiro elemento "p" e crie um seletor com esse ID
+no arquivo .css.
+
+nesse seletor, adicione a propriedade "color" com o valor "rgb(170, 96, 83)".
+
+----------------------------------------------------------------------------
+
+Aula - 40
+
+no seletor de ID "todays-challenge", adicione a propriedade "font-weight" com o valor "bold".
+
+adicione a propriedade "font-size" com o valor "52px".
+
+----------------------------------------------------------------------------
+
+Aula - 41
+
+adicione os links abaixo no arquivo "index", acima do link que referencia o arquivo css.
+links:
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link
+ href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Oswald:wght@700&display=swap"
+ rel="stylesheet"
+ />
+
+modifique a propriedade "font-family" do elemento de "h1" para "Oswald", mantendo a 
+"sans-serif" como fonte alternativa.
+
+para os elementos de parágrafo, modifique a propriedade "font-family" para "Fira Sans", 
+mantendo a "sans-serif" como fonte alternativa.
+
+----------------------------------------------------------------------------
+
+Aula - 43
+
+adicione um elemento "img" como sendo o primeiro elemento filho do elemento "body".
+
+adicione ao elemento de imagem, um atributo "src" e um atributo "alt".
+
+para o atributo "src", adicione o valor com o caminho 'path' que referencia o arquivo 
+de imagem "challenges-trophy.jpg" no diretório em um nível acima deste. 
+
+para o atributo "alt", adicione o valor "A trophy" que descreve a imagem.
+
+----------------------------------------------------------------------------
+
+Aula - 44
+
+no arquivo "daily-challenge.css", adicione o seletor "img" e adicione os estilos:
+        width: 200px;
+        hight: 200px;
+        border-radius: 100px;
+
+adicione o seletor "body" no css com a propriedade "text-align" e o valor "center". 
+
+já que agora a tag "body" estará alinhando todos os elementos ao centro, elimine as 
+redundâncias nos outros elementos.
+
+----------------------------------------------------------------------------
+
+Aula - 45
+
+adicione no seletor "body" as seguintes propriedades e valores:
+       background-color: rgb(233, 215, 207);
+       margin: 50px;
+
+----------------------------------------------------------------------------
+
+Aula - 46
+
+crie um novo arquivo html chamado "full-week".  
+
+nesse arquivo, crie um esqueleto HTML básico e no elemento "title", insira o 
+conteúdo: "My Upcoming Challenges".
+
+modifique o valor do atributo "lang" no elemento "html" para: "pt-br".
+
+no último elemento "p" do arquivo "index", modifique o conteúdo para:
+  "Explore the", e o conteúdo do link dentro do parágrafo para: "full week". 
+
+adicione um "." após o link.
+
+modifique esse link para que ele direcione para o novo arquivo "full-week".
+
+----------------------------------------------------------------------------
+
+Aula - Challenge
+
+no arquivo 'full-week', adicione um elemento de "h1" com o conteúdo: "My Upcoming Challenges".
+
+abaixo do cabeçalho, crie um elemento "a" com o conteúdo: "View Today's Challenge" 
+que direciona o usuário para a página "index.html".
+
+adicione 3 elementos "p" abaixo do link com os seguintes conteúdos:
+- "Repeat what I learned about HTML & CSS"
+- "Do the exercises on HTML & CSS"
+- "Dive deeper into HTML & CSS and build more complex websites"
+
+copie os links das fontes que estão no arquivo "index" e cole no arquivo "full-week". 
+
+crie um novo arquivo "full-week.css".
+
+link esse arquivo com o arquivo "full-week.html".
+
+adicione o seletor "body" no arquivo "full-week.css" com as propriedades e valores:
+background: rgb(233, 215, 207);
+text-align: center;
+color: rgb(83, 75, 75);
+
+adicione um seletor "h1", com as propriedades e valores:
+font-family: 'Oswald', sans-serif;
+
+adicione um seletor "p", com as propriedades e valores:
+font-family: 'Fira Sans', sans-serif
+
+adicione um seletor "a", com as propriedades e valores:
+font-family: 'Fira Sans', sans-serif;
+text-decoration: none;
+color: rgb(167, 1, 78);
+
+adicione um pseudo-seletor "a:hover", com as propriedades e valores:
+text-decoration: underline;
+
+*Tente remover as duplicações de código.
+
+----------------------------------------------------------------------------
+
+Aula - 48
+
+crie um arquivo "shared.css".
+
+recorte o código CSS do arquivo "full-week.css" e cole no arquivo "shared.css".
+
+link o arquivo "shared.css" para o arquivo HTML "full-week" fazendo com que esse seja o primeiro arquivo css 
+a ser lido pelo browser. Faça o mesmo para o arquivo html "index.html".
+
+remova as duplicações de código CSS no arquivo "daily-challenge".
+
+----------------------------------------------------------------------------
+
+Aula - 49
+
+crie um novos diretório "styles".
+
+insira os arquivos css na pasta "styles".
+
+atualize os caminhos nos arquivos html para que não ocorra um erro de leitura.
