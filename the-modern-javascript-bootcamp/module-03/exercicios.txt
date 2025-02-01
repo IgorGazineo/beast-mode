@@ -1,0 +1,54 @@
+Aula - 13
+
+crie uma pasta com o próximo número e dentro dessa pasta, crie um arquivo "temp-conversion.js".
+
+crie uma variável "fahrenheit" e atribua a ela o valor do número 32.
+
+converta o valor para celsius e armazene em uma variável "celsius" e exiba o resultado no
+console.
+
+formula de fahrenheit para celsius: T(C) = (T(F) - 32) * 5/9
+
+converta o valor para kelvin e armazene em uma variável "kelvin" e exiba o resultado no
+console.
+
+formula de fahrenheit para kelvin: T(K) = (T(F) + 459.67) * 5/9
+
+-------------------------------------------------------------------------------------------
+
+Aula - 16
+
+crie um arquivo "boolean-advanced.js".
+
+crie uma variável "temp" com o valor do número 45.
+
+crie um programa usando if else statement que deve printar uma das 3 mensagens abaixo:
+"It is freezing outside!" -> caso o valor de temp seja igual ou abaixo de 32
+"It is hot outside!" -> caso o valor de temp seja igual ou acima de 110
+"Go for it. It is pretty nice." -> caso o valor de temp esteja entre 32 e 110
+
+teste o programa modificando o valor de "temp".
+
+-------------------------------------------------------------------------------------------
+
+Aula - 17
+
+crie um arquivo "logical-and-or.js".
+
+crie uma variável "isGuestOneVegan" e atribua a ela o valor booleano true.
+
+crie uma variável "isGuestTwoVegan" e atribua a ela o valor booleano false.
+
+crie um programa usando if else statement que deve printar uma das mensagens abaixo:
+"Only offer up vegan dishes." -> caso as duas variávels sejam verdadeiras
+"Make sure to offer up some vegan options." -> caso uma das variávels seja verdadeira
+"Offer up anything on the menu." -> caso nenhuma variável seja verdadeira
+
+teste o programa modificando o valor das variáveis.
+
+
+
+
+
+
+
