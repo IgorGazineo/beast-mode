@@ -1,0 +1,95 @@
+Aula - 13
+
+crie uma pasta com o próximo número e dentro crie um arquivo "first-app.ts".
+
+copie e cole o código abaixo e de forma explícita, set a tipagem da variável 'userID' 
+para que ela aceite a reatribuição do tipo number ou string.
+
+*/
+
+// let userID = "abc1";
+// userID = 123;
+
+/*
+
+para compilar o arquivo, abra o terminal integrado e rode o comando 
+'npx tsc' + o nome do arquivo.
+
+------------------------------------------------------------------------------------
+
+Aula - 14
+
+crie uma variável "user" e set a tipagem dela (de forma explícita) para que ela aceite objetos com as seguintes
+propriedades e tipo:
+name -> string
+age -> number
+isAdmin -> boolean
+id: string ou number
+
+atribua a ela o seguinte objeto:
+{
+name: "Max",
+age: "34",
+isAdmin: "true",
+id: "abc",
+};
+
+------------------------------------------------------------------------------------
+
+Aula - 15
+
+copie e cole o código abaixo:
+
+let hobbies: string[];
+
+hobbies = ["Sports", "Cooking", "Reading"];
+
+// hobbies = [
+//   {
+//     name: "Max",
+//     age: 34,
+//   },
+//   {
+//     name: "Igor",
+//     age: 36,
+//   },
+// ];
+
+comente a linha de atribuição da variável "hobbies" e set a tipagem da variável 
+(explicitamente), de forma que ela aceite um array de objetos com as propriedades e tipos:
+name -> string
+age -> number 
+
+------------------------------------------------------------------------------------
+
+Aula - 16
+
+crie uma função "add" que vai receber 2 números como argumentos e retorna a soma desses números.
+
+adicione tipagens de forma explícita do tipo "number" para os parâmetros e retorno da função.
+
+exiba no console o retorno da função, passando como argumentos os números 12 e 30
+
+------------------------------------------------------------------------------------
+
+Aula - 17
+
+crie uma função "calculate" que chama uma função "calcFn" passando 2 argumentos: a, b.
+
+a função "calcFn" e os 2 argumentos "a" e "b", são parâmetros da função "calculate".
+
+adicione os com 3 parâmetros na função "calculate": "a", "b" e "calcFn".
+
+faça a tipagem de forma explícita dos parâmetros "a" e "b" para o tipo "number".
+
+faça a tipagem de forma explícita para o parâmetro "calcFn" de modo que seja uma função que 
+receba 2 argumentos do tipo "number" e returna um valor do tipo "number". 
+
+use as variáveis "c" e "d" na tipagem da função.
+
+exiba no console o retorno da função "calculate", passando como argumento os números 7 e 7 para 
+os primeiros parâmetros e a função "add" (criada no exercício anterior) como terceiro argumento.
+
+------------------------------------------------------------------------------------
+
+Aula - 18
