@@ -1,1 +1,6 @@
-Sem exercícios.
+Aula - 07
+
+crie uma pasta com o próximo número e dentro crie um arquivo "hello.js"
+
+exiba no console a string "Welcome to the class!" rodando o arquivo
+"hello.js" através do Node.
