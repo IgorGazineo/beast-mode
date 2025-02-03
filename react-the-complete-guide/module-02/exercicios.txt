@@ -71,18 +71,18 @@ de nomes a partir da variável "names". Ex: [{name: 'Isabella'}, {name: 'Luara'}
 
 Aula - 24
 
-1 - crie uma constante "userNameData" que recebe um array que tem 2 itens: 'Igor' e 'Rebouças'
+1 - crie uma constante "userNameData1" que recebe um array que tem 2 itens: 'Igor' e 'Rebouças'
 
 com o recurso de destructuring, crie duas constantes "firstName" e "lastName" e faça essas constantes 
-recebere a string referente ao valor correto que está no array "userNameData".
+recebere a string referente ao valor correto que está no array "userNameData1".
 
 exiba no console o resultado de fristName e lastName e comente o código criado.
 
-2 - crie uma constante "userNameData" que recebe um objeto que tem 2 propriedades: name e age
+2 - crie uma constante "userNameData2" que recebe um objeto que tem 2 propriedades: name e age
 passando como valor o seu nome e sua idade.
 
 com o recurso de destructuring, crie duas constantes "name" e "age" e faça essas constantes 
-receberem a valor das propriedades name e age do objeto "userNameData".
+receberem o valor das propriedades name e age do objeto "userNameData2".
 
 exiba name e age no console e depois comente o código criado.
 
