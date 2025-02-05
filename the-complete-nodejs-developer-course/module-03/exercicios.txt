@@ -1,6 +1,8 @@
 Aula - 9
 
-1 - crie um arquivo "app.js" e carregue o módulo file system e atribua a uma constante "fs".
+crie uma pasta com o próximo número do ultimo exercício.
+
+1 - dentro da pasta, crie um arquivo "app.js" e carregue o módulo file system e atribua a uma constante "fs".
 
 com o módulo file system carregado no arquivo, utilizando o método "writeFileSync", crie 
 um arquivo de texto "notes" com o seguinte texto: "This file was created by Node.js!"

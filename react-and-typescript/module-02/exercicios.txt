@@ -93,3 +93,21 @@ os primeiros parâmetros e a função "add" (criada no exercício anterior) como
 ------------------------------------------------------------------------------------
 
 Aula - 18
+
+antes da função "calculate", crie uma tipagem customizada "AddFn" com a palavra-chave "type"
+para o parâmetro "calcFn" da função "calculate".
+
+------------------------------------------------------------------------------------
+
+Aula - 20
+
+crie uma tipagem customizada "User" com a palavra-chave reservada "interface" para um objeto 
+contendo as seguintes propriedades e tipos:
+{name: string; age: number}
+
+crie 2 objetos com as constantes "user1" e "user2", passe a tipagem "User" criada acima, e 
+crie 2 objetos com as propriedades e valores válidos.
+
+------------------------------------------------------------------------------------
+
+Aula - 21
