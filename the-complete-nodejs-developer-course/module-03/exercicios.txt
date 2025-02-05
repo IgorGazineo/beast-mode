@@ -5,7 +5,7 @@ crie uma pasta com o próximo número do ultimo exercício.
 1 - dentro da pasta, crie um arquivo "app.js" e carregue o módulo file system e atribua a uma constante "fs".
 
 com o módulo file system carregado no arquivo, utilizando o método "writeFileSync", crie 
-um arquivo de texto "notes" com o seguinte texto: "This file was created by Node.js!"
+um arquivo de texto "notes.txt" com o seguinte texto: "This file was created by Node.js!"
 
 2 - substitua o segundo argumento do método pelo texto: "My name is Andrew." e execute o
 arquivo app.js através do node.
@@ -25,7 +25,7 @@ app.js no node.
 
 2 - no arquivo "utils.js" crie uma constante "name" que recebe o valor "Mike".
 
-crie uma função "add" e que possui 2 parâmetros "a" e "b" e retorna a soma dos parâmetros.
+crie uma função "add" que possui 2 parâmetros "a" e "b" e retorna a soma dos parâmetros.
 
 faça com que um objeto contento a constante "name" e a função "add", fique disponível para ser
 exportado do arquivo "utils.js"
