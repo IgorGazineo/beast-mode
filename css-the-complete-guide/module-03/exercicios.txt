@@ -122,3 +122,62 @@ atualize o valor da propriedade "width" no seletor ".main-nav" para "calc(100% -
 
 -----------------------------------------------------------------------------------
 
+Aula - 40
+
+no primeiro elemento "a" do html, adicione um atributo "class" com o valor "main-header__brand".
+
+adicione o seletor ".main-header__brand" ao css com as propriedades e valores:
+color: #0e4f1f;
+text-decoration: none;
+font-weight: bold;
+font-size: 22px;
+
+atualize o valor da propriedade "width" no seletor ".main-nav" para "calc(100% - 74px)".
+
+adicione a propriedade "vertical-align" com o valor "middle" para os seletores ".main-nav"
+e "main-header > div".
+
+-----------------------------------------------------------------------------------
+
+Aula - 41
+
+no seletor ".main-nav__item" adicione as seguintes propriedades e valores:
+margin: 0 16px;
+
+adicione uma combinação de seletores ".main-nav__item a" com as seguintes propriedades
+e valores:
+text-decoration: none;
+color: #0e4f1f;
+
+-----------------------------------------------------------------------------------
+
+Aula - 42
+
+no css, adicione duas pseudo-classes ".main-nav__item a:hover" e ".main-nav__item a:active" 
+com a propriedade "color" e valor "white".
+
+-----------------------------------------------------------------------------------
+
+Aula - 43
+
+adicione um seletor de pseudo-elemento "p::first-letter" com as propriedades e valores:
+color: red;
+font-size: 20px;
+
+remova o seletor de pseudo-elemento "p::first-letter".
+
+abaixo do seletor ".main-nav__item a" adicione um seletor de pseudo-elemento 
+".main-nav__item a::after" com as propriedades e valores:
+content: " (Link)";
+color: red;
+
+remova o seletor de pseudo-elemento ".main-nav__item a::after".
+
+-----------------------------------------------------------------------------------
+
+Aula - 44
+
+já que os seletores ".main-nav__item a:hover" e ".main-nav__item a:active" possuem a 
+mesma propriedade com o mesmo valor, agrupe-os em uma mesma regra css.
+
+-----------------------------------------------------------------------------------
