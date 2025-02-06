@@ -1,0 +1,124 @@
+Aula - 27
+
+faça uma cópia da pasta "00" e renomei-a com o  próximo número.
+
+no arquivo "main.css", adicione um padding de 20px no elemento de seletor 
+"#product-overview".
+
+no mesmo seletor, adicione uma propriedade "border" com o valor
+"5px black solid" e uma propriedade "margin" com o valor "20px".
+
+-----------------------------------------------------------------------------------
+
+Aula - 28
+
+no seletor "body" adicione a propriedade "margin" com o valor "0".
+
+-----------------------------------------------------------------------------------
+
+Aula - 32
+
+remova todas as propriedades do seletor "#product-overview" exceto "background".
+
+no mesmo seletor, adicione a propriedade "width" com o valor "100%" e a propriedade
+"height" com o valor "528px".
+
+-----------------------------------------------------------------------------------
+
+Aula - 33
+
+no seletor "#product-overview", adicione as seguintes propriedades e valores:
+padding: 10px;
+border: 5px solid black;
+margin: 10px;
+
+adiciona a propriedade "box-sizing" com o valor padrão "content-box".
+
+altere o valor da propriedade "box-sizing" para "border-box".
+
+recorte a propriedade "box-sizing" do seletor "#product-overview" e cole-a no 
+seletor "body" e perceba que ela não terá efeito no elemento de seletor "#product-overview".
+
+para ter efeito no elemento de seletor "#product-overview" e em todos os outros, crie um
+seletor universal e recorte a propriedade "box-sizing" do seletor "body" e cole-a neste
+seletor.
+
+-----------------------------------------------------------------------------------
+
+Aula - 34
+
+delete as propriedades "border" e "margin" do seletor "#product-overview".
+
+adicione o elemento "header" abaixo como sendo o primeiro elemento dentro do
+elemento "body" no index.html:
+ <header>
+        <div>
+            <a href="index.html">
+                uHost
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="packages/index.html">Packages</a>
+                </li>
+                <li>
+                    <a href="customers/index.html">Customers</a>
+                </li>
+                <li>
+                    <a href="start-hosting/index.html">Start Hosting</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+adicione uma class "main-header" no elemento "header" e crie esse seletor no arquivo 
+"main.css".
+
+no seletor ".main-header" adicione as seguintes propriedades:
+width: 100%;
+background: #2ddf5c;
+padding: 8px 16px;
+
+-----------------------------------------------------------------------------------
+
+Aula - 35
+
+adicione um atributo "class" com o valor "main-nav__item" em cada elemento "li" 
+do arquivo html.
+
+adicione um atributo "class" com o valor "main-nav__items" no elemento "ul" 
+do arquivo html.
+
+adicione um atributo "class" com o valor "main-nav" no elemento "nav" 
+do arquivo html.
+
+no css, adicione um seletor ".main-nav__item" com a propriedade "display" e o 
+valor "inline-block".
+
+-----------------------------------------------------------------------------------
+
+Aula - 38
+
+no css, adicione um seletor ".main-header > div" com a propriedade "display" e o
+valor "inline-block".
+
+adicione um seletor ".main-nav" com a propriedade "display" e o valor "inline-block".
+
+adicione ao seletor ".main-nav" a propriedade "text-align" com o valor "right".
+
+adicione um seletor ".main-nav__items" com as seguintes propriedades e valores:
+margin: 0;
+padding: 0;
+list-style: none;
+
+adicione a propriedade "width" com o valor "calc(100% - 49px)" ao seletor ".main-nav".
+
+-----------------------------------------------------------------------------------
+
+Aula - 39
+
+atualize o valor da propriedade "width" no seletor ".main-nav" para "calc(100% - 54px)".
+
+-----------------------------------------------------------------------------------
+
