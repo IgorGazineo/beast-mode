@@ -1,0 +1,54 @@
+Aula - 37
+
+faça uma cópia do arquivo "00-starting-project" renomeando-o com o próximo número de exercício.
+
+no caminho desse novo arquivo, execute o comando "npm install" para instalar as dependências
+do projeto.
+
+depois de instalar, execute o comando "npm run dev" para inicializar o servidor no projeto.
+(para parar o servidor, execute "Ctrl + c").
+
+*delete a pasta "node_modules" e a pasta "assets" antes de fazer um commit.
+
+-----------------------------------------------------------------------------------------
+
+Aula - 39
+
+no arquivo "App.jsx", crie um componente "Header" acima do componente "App". 
+
+esse componente deve retornar o elemento "header" que está dentro do componente "App". 
+
+recorte o elemento "header" que está na função "App" e cole para que esse elemento seja 
+o retorno da função "Header".
+
+agora que o componente foi criado, utilizi-o no local em que o elemento "header" estava.
+
+-----------------------------------------------------------------------------------------
+
+Aula - 42
+
+no arquivo "App.jsx", crie uma constante "reactDescriptions" que recebe o array 
+"['Fundamental', 'Crucial', 'Core']".
+
+crie uma função "genRandomInt" com um parâmetro "max" que retorna um número aleatório entre zero 
+e um valor máximo passado como argumento. 
+
+faça a primeira palavra do elemento "p" que está no componente "Header", ser retornada dinamicamente 
+através do array "reactDescriptions" utilizando a função "genRandomInt".
+
+crie uma constante "description" que recebe o retorno da expressão dinâmica no elemento "p" e 
+substitua a expressão pela constante.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
