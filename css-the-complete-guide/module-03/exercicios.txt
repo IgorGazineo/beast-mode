@@ -181,3 +181,47 @@ já que os seletores ".main-nav__item a:hover" e ".main-nav__item a:active" poss
 mesma propriedade com o mesmo valor, agrupe-os em uma mesma regra css.
 
 -----------------------------------------------------------------------------------
+
+Aula - 45
+
+no seletor ".main-nav__item a", adicione a propriedade "font-weight" com o valor "bold".
+
+nos seletores ".main-nav__item a:hover" e ".main-nav__item a:active" adicione a propriedade
+"border-bottom" com o valor "5px solid white".
+
+no seletor ".main-nav__item a", adicione a propriedade "padding" com o valor "3px 0".
+
+-----------------------------------------------------------------------------------
+
+Aula - 46
+
+no html, adicione uma classe "main-nav__item--cta" no ultimo elemento "li" dentro do 
+elemento "ul" com a classe "main-nav__items".
+
+no css, adicione um seletor "main-nav__item--cta a" com as propriedades e valores:
+color: white;
+background: #ff1b68;
+padding: 8px 16px;
+border-radius: 8px;
+
+adicione um agrupamento dos seletores "main-nav__item--cta a:hover" e 
+"main-nav__item--cta a:active" com as propriedades e valores:
+color: #ff1b68;
+background: white;
+border: none;
+
+-----------------------------------------------------------------------------------
+
+Aula - 47
+
+no seletor "#product-overview", modifique o valor da propriedade "background" para
+"url('freedom.jpg')"
+
+-----------------------------------------------------------------------------------
+
+
+
+
+
+
+
