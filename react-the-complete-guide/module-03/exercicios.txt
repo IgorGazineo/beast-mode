@@ -39,16 +39,121 @@ através do array "reactDescriptions" utilizando a função "genRandomInt".
 crie uma constante "description" que recebe o retorno da expressão dinâmica no elemento "p" e 
 substitua a expressão pela constante.
 
+-----------------------------------------------------------------------------------------
 
+Aula - 43
 
+através das paravras-chave "import" "export", importe a imagem do caminho 
+"./assets/react-core-concepts.png" para o arquivo "App.jsx" em uma variável "reactImg".
 
+faça o atributo "src" do elemento "img" no componente "Header", receber a variável "reactImg"
+por uma forma de sintaxe dinâmica.
 
+-----------------------------------------------------------------------------------------
 
+Aula - 44
 
+entre os componentes "App" e "Header", crie um componente "CoreConcept".
 
+esse componente deve retornar uma elemento nesse modelo:
 
+<li>
+	<img src="..." alt="..." />
+	<h3>TITLE</h3>
+	<p>DESCRIPTION</p>
+</li>
 
+no componente "App", adicione como primeiro elemento filho do elemento "main", um 
+elemento "section" com id "core-concepts".
 
+mova o elemento "h2" para dentro desse elemento "section" e modifique o conteúdo para
+"Core Concepts".
 
+após o elemento "h2", adicione um elemento "ul" que renderiza 4 componentes "CoreConcept".
+
+no primeiro componente "CoreConcept", adicione um atributo(props) "title" com o valor 
+"Components" e um atributo "description" com o valor "The core UI building block.".
+
+adicione um atributo "image" que receberá o valor de forma dinâmica.
+
+para isso, importe para o arquivo "App.jsx" em uma variável "componentsIgm", a referência
+da imagem que está no caminho "./assets/components.png".
+
+passe o valor para o atributo "image".
+
+no componente "CoreConcept", adicione um parâmetro "props" que irá conter um objeto com
+as propriedades e valores passados como argumentos na renderização do componente.
+
+utilize esse objeto para passar de forma dinâmica os valores dos atributos e conteúdo dos
+elementos no componente "CoreConcept".
+
+para o valor do atributo "alt" do elemento "img", utilize o valor da propriedade "title".
+
+adicione o atributo "title" para no segundo componente "CoreConcept" que está sendo 
+renderizado com o valor "Props".
+
+-----------------------------------------------------------------------------------------
+
+Aula - 45
+
+parte 1
+
+crie um arquivo "data.js" na pasta "src" contendo o código abaixo:
+
+import componentsImg from './assets/components.png';
+import propsImg from './assets/config.png';
+import jsxImg from './assets/jsx-ui.png';
+import stateImg from './assets/state-mgmt.png';
+
+export const CORE_CONCEPTS = [
+  {
+    image: componentsImg,
+    title: 'Components',
+    description:
+      'The core UI building block - compose the user interface by combining multiple components.',
+  },
+  {
+    image: jsxImg,
+    title: 'JSX',
+    description:
+      'Return (potentially dynamic) HTML(ish) code to define the actual markup that will be rendered.',
+  },
+  {
+    image: propsImg,
+    title: 'Props',
+    description:
+      'Make components configurable (and therefore reusable) by passing input data to them.',
+  },
+  {
+    image: stateImg,
+    title: 'State',
+    description:
+      'React-managed data which, when changed, causes the component to re-render & the UI to update.',
+  },
+];
+
+importe a constante "CORE_CONCEPTS" para o arquivo "App.jsx".
+
+use o array na "CORE_CONCEPTS" para passar de forma dinâmica os valores dos atributos na
+renderização dos componentes "CoreConcept" no modelo:
+title={CORE_CONCEPTS[0].title}
+description={CORE_CONCEPTS[0].description}
+image={CORE_CONCEPTS[0].image}
+
+exclua a linha que importa a referência do arquivo no caminho "./assets/components.png".
+
+parte 2
+
+a partir do segundo componente "CoreConcept" renderizado, modifique a sintaxe de forma que 
+os atributos e valores sejam passados utilizando o operador "spread".
+
+parte 3
+
+no componente "CoreConcept", utilize atribuição de "destructuring" no parâmetro da 
+função para desestruturar as propriedades o objeto passado como argumento.
+
+faça as alterações necessárias com as propriedades desestruturadas do objeto.
+
+-----------------------------------------------------------------------------------------
 
 
