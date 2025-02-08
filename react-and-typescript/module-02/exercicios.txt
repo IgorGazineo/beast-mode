@@ -111,3 +111,32 @@ crie 2 objetos com as propriedades e valores válidos.
 ------------------------------------------------------------------------------------
 
 Aula - 21
+
+crie uma tipagem customizada "Admin" com a palavra-chave reservada "type" para um objeto 
+contendo as seguintes propriedades e tipos:
+{ permissions: string[] }
+
+crie uma tipagem customizada "AppUser" com a palavra-chave reservada "type" para um objeto 
+contendo as seguintes propriedades e tipos:
+{ userName: string }
+
+faça uma fusão das tipagens "Admin" e "AppUser" em uma tipagem customizada "AppAdmin" 
+com a palavra-chave reservada "type".
+
+crie uma variável "admin" que recebe a tipagem "AppAdmin".
+
+passe um objeto com as seguintes características:
+
+{permissions: ['login'], userName: 'Max'}
+
+comente o código acima e faça o mesmo utilizando uma tipagem customizada com a palavra-chave 
+reservada "interface".
+
+------------------------------------------------------------------------------------
+
+Aula - 22
+
+crie uma variável "role" e faça a tipagem dela de forma que ela só aceite as seguintes strings:
+'admin', 'user' ou 'editor'.
+
+------------------------------------------------------------------------------------

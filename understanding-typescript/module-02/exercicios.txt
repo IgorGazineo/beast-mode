@@ -1,0 +1,29 @@
+Aula - 12
+
+copie e cole a pasta "00-project-setup" renomeando-a com o número do próximo exercício.
+
+na pasta criada, execute o comando "tsc app.ts" e abra o arquivo "index.html" no browser
+e veja no console se o arquivo foi compilado corretamente.
+
+delete o console.log do arquivo "app.ts".
+
+crie uma função "add" com os parâmetros "n1" e "n2" e que retorna n1 + n2.
+
+crie uma constante "number1" que recebe o número 5 e uma constante "number2" que recebe
+o número 2.8.
+
+crie uma constante "result" que recebe o retorno da execução da função "add" passando 
+como argumento as constantes "number1" e "number2".
+
+exiba o valor de "result" no console e compile o arquivo "app.ts".
+
+modifique o valor de "number1" para uma string "5" e exiba "result" no console.
+
+faça com que a tipagem dos parâmetros da função "add" sejam do tipo "number".
+
+compile o arquivo "app.ts" que exibirá um erro no terminal.
+
+para corrigir o erro, volte o valor de "number1" para o número 5 e compile o arquivo novamente.
+
+--------------------------------------------------------------------------------------
+
