@@ -1,0 +1,45 @@
+Aula - 39
+
+crie uma pasta com o próximo número de exercicio e dentro dessa pasta, crie um arquivo
+chamado "http-examplle.js".
+
+requisite o módulo "http" através da função (método) "require" e atribua a uma constante
+"http".
+
+execute o método "request" do módulo "http".
+
+passe como primeiro argumento do método, uma string com a url do website do google.
+
+como segundo argumento, passe uma função de callback anônima com um parâmetro "res".
+
+dentro da função de callback, execute o método "on" do objeto "res".
+
+no método on, passe como primeiro argumento umas string "data" e como segundo argumento,
+uma função de callback anônima com um parâmetro "chunck" que executa um "console.log".
+
+no console.log, passe o argumento `Data chunk: ${chunk}`.
+
+execute um segundo método "on" do objeto "res", passando como primeiro argumento a
+string "end" e como segundo, uma função de callback que executa um console.log com a string
+"No more data".
+
+crie uma constante "req" que receberá o retorno da execução do método "request".
+
+ao final, execute o método "end" na constante "req" e execute o arquivo com o Node.
+
+tente agora executar o arquivo, passando como argumento do método "request", uma url
+do google com o protocolo "https".
+
+para corrigir o erro, solicite o módulo "https" com método "require" e use do artifício 
+destructuring para obter o método "request".
+
+refatore o código para executar diretamente o método "request" e execute o arquivo novamente.
+
+ao invés de usar o método "request", obtenha o método "get" do módulo "https".
+
+atualize o código removento a constante "req" e execute o arquivo.
+
+--------------------------------------------------------------------------------------- 
+
+Aula - 41
+

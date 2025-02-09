@@ -1,0 +1,39 @@
+Aula - 21
+
+crie uma pasta com o número do próximo exercício e dentro, crie um arquivo "functions-101.js".
+
+no arquivo, atribua a uma variável "greetUser", uma função que ao ser executada, executa
+um "console.log" com a string "Welcome user!".
+
+execute a função e depois execute o arquivo.
+
+atribua a uma variável "square", uma função que tem um parâmetro "num" e que retorna
+o resultado do parâmetro ao quadrado.
+
+printe no console o resultado da execução da função "square" passando como argumento o número
+3.
+
+#desafio
+
+crie uma função "convertFahrenheitToCelsius" que converte um valor de fahrenheit para celsius.
+
+execute essa função, passando como argumento os valores dos números 32 e 68 e print o resultado
+no console que deve ser 0 e 20.
+
+--------------------------------------------------------------------------------------------
+
+Aula - 22
+
+crie um arquivo "undefined-null.js".
+
+nesse arquivo, declare uma variável "name" sem atribuir nenhum valor a ela e exiba no console
+o valor dessa variável.
+
+crie um if else statement para chegar o valor da variável.
+
+caso seja "undefined", exiba no console a mensagem "Please provide a name"
+
+caso não seja, exiba no console o valor de "name".
+
+--------------------------------------------------------------------------------------------
+
