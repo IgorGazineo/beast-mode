@@ -1,0 +1,140 @@
+Aula - 56
+
+copie e cole a pasta "00" e renomei-a com o número do próximo exercício.
+
+comente as propriedades dos seletores no arquivo "full-week.css".
+
+no seletor "ol", adicione a propriedade "color" com o valor "rgb(251, 255, 0)";
+
+no seletor "li", adicione a propriedade "color" com o valor "rgb(251, 100, 0)";
+
+comente todas as propriedades do arquivo "full-week.css".
+
+descomente a propriedade "list-style" do seletor "ol".
+
+-----------------------------------------------------------------------------------------
+
+Aula - 57
+
+remova as propriedades "color" dos seletores e descomente as propriedades "list-style".
+
+comente o seletor "ol" e modifique a ordem das propriedades do seletor "li".
+
+descomente o seletor "ol" e coloque-o após o seletor "li".
+
+modifique novamente os seletores para a ordem inicial.
+
+-----------------------------------------------------------------------------------------
+
+Aula - 58
+
+no arquivo "full-week.css" comente o seletor "li".
+
+adicione um seletor "h1" com as seguintes propriedades e valores:
+font-size: 48px;
+color: rgb(71, 62, 62);
+
+adicione um seletor "a" com as propriedades e valores:
+background-color: rgb(167, 1, 78);
+color: white;
+border-radius: 4px;
+font-size: 24px;
+
+adicione um pseudo-seletor "a:hover" com as propriedades e valores:
+text-decoration: none;
+background-color: rgb(180, 12, 90);
+
+descomente o seletor "li", remova as propriedades e adicione as propriedades e valores:
+background-color: rgb(223, 136, 124);
+border-radius: 6px;
+margin: 32px;
+
+-----------------------------------------------------------------------------------------
+
+Aula - 59
+
+no seletor "a", adicione as seguintes propriedades e valores:
+padding: 12px;
+border: 1px solid rgb(167, 1, 78);
+
+no seletor "h1", adicione uma propriedade "margin" com o valor "12px".
+
+-----------------------------------------------------------------------------------------
+
+Aula - 60
+
+no arquivo "full-week.css" modifique o valor da propriedade "margin" do seletor "h1" 
+para "12px 0".
+
+modifique o valor da propriedade "padding" do seletor "h1" para "12px 48px".
+
+no seletor "ol" adicione as seguintes propriedades e valores:
+width: 500px;
+margin: 36px auto 0;
+padding: 0;
+
+no seletor "li" adicione a propriedade "padding" com o valor "16px".
+
+-----------------------------------------------------------------------------------------
+
+Aula - 61
+
+no arquivo html "full-week.html", adicione um elemento "header" dentro do "body".
+
+aninhe os elementos "h1" e "a" como filhos diretos do elemento "header".
+
+adicione um elemento "main" como elemento irmão adjacente do elemento "header".
+
+aninhe o elemento "ol" como filho direto do elemento "main".
+
+adicione um elemento "li" com o conteúdo "Learn all about forms".
+
+-----------------------------------------------------------------------------------------
+
+Aula - 63
+
+no arquivo html "full-week.html", envolva o conteúdo dos elementos "li" em um elemento 
+"p".
+
+adima do elemento "p" adicione um elemento "h2" contendo o conteúdo nessa ordem:
+"Tuesday, April 2nd"
+"Wednesday, April 3rd"
+"Thursday, April 4th"
+"Friday, April 5th" 
+
+modifique o conteúdo do ultimo elemento "p" para "Practice advanced HTML & CSS concepts".
+
+entre o elemento "h1" e "a", adicione um elemento "p" com um atributo "id" de valor 
+"description" e com o conteúdo "These are my goals for the next days".
+
+no arquivo css "full-week.css", adicione um seletor "#description" contendo a propriedade
+"margin-bottom" com o valor "36px".
+
+comente o seletor "#description" e adicione um seletor "header p" contendo a propriedade
+"margin-bottom" com o valor "36px".
+
+crie um seletor "h2" contendo as seguintes propriedades e valores:
+color: rgb(78, 13, 5);
+font-family: 'Oswald', sans-serif;
+
+crie um seletor "main p" contendo as seguintes propriedades e valores:
+margin: 12px;
+color: rgb(71, 29, 22);
+
+-----------------------------------------------------------------------------------------
+
+Aula - 64
+
+no arquivo html "full-week.html", adicione uma classe "highlight-goal" no 
+terceiro e quarto elemento "li" dentro do elemento "main".
+
+no arquivo css "full-week.css", adicione um seletor ".highlight-goal" e altere o 
+valor da propriedade "background-color" para: "rgb(226, 115, 101)".
+
+no topo do arquivo, adicione um seletor "header" contendo uma 
+propriedade "margin-bottom" com o valor "64px".
+
+comente o seletor "header p" e descomente o seletor "#description".
+
+-----------------------------------------------------------------------------------------
+
