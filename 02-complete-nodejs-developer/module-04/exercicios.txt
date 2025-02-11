@@ -1,7 +1,7 @@
 Aula - 39
 
 crie uma pasta com o próximo número de exercicio e dentro dessa pasta, crie um arquivo
-chamado "http-examplle.js".
+chamado "http-example.js".
 
 requisite o módulo "http" através da função (método) "require" e atribua a uma constante
 "http".
@@ -15,7 +15,7 @@ como segundo argumento, passe uma função de callback anônima com um parâmetr
 dentro da função de callback, execute o método "on" do objeto "res".
 
 no método on, passe como primeiro argumento umas string "data" e como segundo argumento,
-uma função de callback anônima com um parâmetro "chunck" que executa um "console.log".
+uma função de callback anônima com um parâmetro "chunk" que executa um "console.log".
 
 no console.log, passe o argumento `Data chunk: ${chunk}`.
 
