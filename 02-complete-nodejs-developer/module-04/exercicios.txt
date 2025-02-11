@@ -47,7 +47,7 @@ crie uma pasta "modules-example".
 
 dentro da pasta, crie um arquivo "https.js".
 
-dentro desse arquivo, crie uma função "makrRequest".
+dentro desse arquivo, crie uma função "makeRequest".
 
 essa função deve conter o primeiro parâmetro "url" e o segundo "data".
 
