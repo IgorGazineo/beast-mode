@@ -43,3 +43,102 @@ atualize o código removento a constante "req" e execute o arquivo.
 
 Aula - 41
 
+crie uma pasta "modules-example".
+
+dentro da pasta, crie um arquivo "https.js".
+
+dentro desse arquivo, crie uma função "makrRequest".
+
+essa função deve conter o primeiro parâmetro "url" e o segundo "data".
+
+crie um arquivo "request.js" e um "response.js".
+
+no arquivo "request.js", crie uma função "encrypt" com o parâmetro "data" e que retorna
+a string "encrypted data".
+
+abaixo, crie uma função "send" com os parâmetros "url" e "data".
+
+dentro da função "sent", crie uma constante "encryptedData" que recebe o retorno
+da execução da função "encrypt" passando como argumento o parâmetro "data".
+
+após a constante "encryptedData" a função "send" deve executar um "console.log" passando
+como argumento o seguinte valor: `sending ${encryptedData} to ${url}`.
+
+no arquivo "response.js", cria uma função "read" que retorna a execução da função
+"decrypt" passando como argumento a strig "data".
+
+acima da função "read", cria a função "decrypt" com o parâmetro "data" e que retorna
+uma string "decrypted data".
+
+no arquivo "request", faça a função "send" ficar disponível através da propriedade
+"exports" do objeto "module".
+
+faça o mesmo com a função "read" no arquivo "response.js".
+
+no topo do arquivo "https.js", crie uma constante "request" que recebe o valor da função
+exportada no arquivo "request.js". Use o método "require" para importar a função. 
+
+abaixo, crie uma constante "response" que recebe o valor da função
+exportada no arquivo "response.js". 
+
+no corpo da função "makeRequest", execute a função "request" passando como primeiro argumento
+o parâmetro "url" e como segundo, o parâmetro "data".
+
+abaixo, faça a função "makeRequest" exibir no console o valor da execução da função "response".
+
+após a criação da função "makeRequest", execute-a passando como primeiro argumento a string
+"https://google.com" e como segundo argumento a string "hello".
+
+execute o arquivo "https.js" no node.
+
+---------------------------------------------------------------------------------------
+
+Aula - 44
+
+no arquivo "https.js", atualize o código que importa e exporta as funções dos arquivos 
+"request.js" e "response.js" para ECMASrcipt.
+
+execute o arquivo "https.js".
+
+---------------------------------------------------------------------------------------
+
+Aula - 45
+
+no final do código no arquivo "request.js", execute um console.log passando como argumento
+a string "Hello from request.js!".
+
+execute o arquivo "https.js".
+
+no final do código no arquivo "https.js" execute um console.log passando como argumento
+a propriedade "cach" do objeto "require".
+
+delete o console.log acima, e execute o mesmo console no arquivo "request.js".
+
+---------------------------------------------------------------------------------------
+
+Aula - 46
+
+crie uma pasta "internals" e transfira os arquivos "request.js" e "response.js" para ela.
+
+no arquivo "https.js", execute o mótodo "require" passando como argumento a string
+"./internals" e capture o retorno em uma constante "internals".
+
+comente as outras inportações, e execute o arquivo "htttps.js".
+
+crie um arquivo "index.js" na pasta "internals".
+
+no arquivo "index.js" exporte o objeto:
+{
+	request: require('./request'),
+	response: require('./response')
+}
+
+
+atualize a função "makeRequest" utilizando a constante "internals".
+
+execute o arquivo "https.js".
+
+depois de fazer o arquivo "https.js" ser executado, modifique o nome do arquivo "index.js"
+para "teste.js" e atualize o código a partir dessa mudança.
+
+execute o arquivo "https.js". 
