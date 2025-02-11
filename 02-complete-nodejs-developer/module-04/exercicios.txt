@@ -110,7 +110,7 @@ a string "Hello from request.js!".
 execute o arquivo "https.js".
 
 no final do código no arquivo "https.js" execute um console.log passando como argumento
-a propriedade "cach" do objeto "require".
+a propriedade "cache" do objeto "require".
 
 delete o console.log acima, e execute o mesmo console no arquivo "request.js".
 
