@@ -140,3 +140,63 @@ crie uma variável "role" e faça a tipagem dela de forma que ela só aceite as 
 'admin', 'user' ou 'editor'.
 
 ------------------------------------------------------------------------------------
+
+Aula - 23
+
+crie uma tipagem customizada "Role" com a palavra-chave reservada "type".
+
+essa tipagem deve aceitar os valores: 'admin', 'user' ou 'editor'.
+
+crie uma função "perforAction".
+
+adicione um primeiro parâmetro "action" e tipe-o com o valor "string" ou "number".
+
+adicione um segundo parâmetro "role" e tipe-o com a tipagem customizada "Role".
+
+dentro da função, crie uma condição que checa se o valor de "role" é igual a "admin"
+e se o tipo do parâmetro "action" é "string".
+
+caso a condição seja verdadeira, execute um console com o argumento: `O valor de role: ${role}`.
+
+execute a função -> performAction('Greet', 'admin')
+
+------------------------------------------------------------------------------------
+
+Aula - 25
+
+ao final do código, adicione o código abaixo:
+let roles1: Array<Role>;
+roles1 = ['admin', 'editor'];
+
+let roles2: Role[];
+roles2 = ['admin', 'editor'];
+
+type DataStorage<T> = {
+	storage: T[];
+	add: (data: T) => void;
+};
+
+const textStorage: DataStorage<string> = {
+	storage: [],
+	add(data) {
+		this.storage.push(data);
+	}
+}
+
+const userStorage: DataStorage<User> = {
+	storage: [],
+	add(user) {}
+}
+
+function merge<T, U>(a: T, b: U) {
+	return {
+		...a,
+		...b
+	}
+}
+
+const newUser = merge<{name: string}, {age: number}>({name: 'Max'}, {age: 34}) {
+
+}
+
+
