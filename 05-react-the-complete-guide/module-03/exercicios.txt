@@ -156,4 +156,32 @@ faça as alterações necessárias com as propriedades desestruturadas do objeto
 
 -----------------------------------------------------------------------------------------
 
+Aula - 47
+
+no diretório "src", crie uma pasta "components".
+
+dentro da pasta components, crie os arquivos:
+"Header.jsx"
+""
+
+recorte a função (componente) "Header", a função "genRandomInt" e a const "reactDescriptions" e 
+cole no arquivo "Header.jsx".
+
+exporte o componente "Header" com a palavra-chave "export default".
+
+importe o componente "Header" no arquivo "App.jsx".
+
+recorte a linha de código no arquivo "App.jsx" que importa o arquivo "react-core-concepts.png"
+e cole no topo do código do arquivo "Header.jsx".
+
+ajuste o caminho da importação para funcionar.
+
+na pasta "components", crie um arquivo "CoreConcept.jsx".
+
+recorte a função "CoreConcept" do arquivo "App.jsx" e cole no arquivo "CoreConcept.jsx".
+
+exporte o componente "CoreConcept" com a palavra-chave "export default".
+
+importe o compoente "CoreConcept" no arquivo "App.jsx".
+
 
