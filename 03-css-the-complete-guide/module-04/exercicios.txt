@@ -1,0 +1,35 @@
+Aula - 52
+
+faça uma cópia da pasta "00" e renomei-a com o número do próximo exercício.
+
+no arquivo html, adicione uma classe "highlighted" no primeiro elemento "section". 
+
+ao final do código css, crie um seletor ".highlighted" com as propriedades e valores:
+border: 2px solid #fa923f;
+
+abaixo do seletor "a", crie um seletor "a.active" com as propriedades e valores:
+color: #521751;
+
+-------------------------------------------------------------------------------------------
+
+Aula - 54
+
+no seletor ".main-section", adicione a anotação "!important" no valor da propriedade
+"border".
+
+no seletor ".highlighted" adicione a propriedade "height" com o valor "200px".
+
+-------------------------------------------------------------------------------------------
+
+Aula - 55
+
+abaixo do seletor "a.active", adicione um seletor "a:not(.active)" com as propriedades e valores:
+color: blue;
+
+-------------------------------------------------------------------------------------------
+
+Aula - 56
+
+abra o site "https://www.caniuse.com" e faça uma pesquisa para a disponibilidade
+de uma propriedade css.
+
