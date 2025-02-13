@@ -184,4 +184,104 @@ exporte o componente "CoreConcept" com a palavra-chave "export default".
 
 importe o compoente "CoreConcept" no arquivo "App.jsx".
 
+-----------------------------------------------------------------------------------------
 
+Aula - 48
+
+na pasta "components", crie um arquivo "Header.css".
+
+no arquivo "index.css", recorte todo código relacionado a estilização do elemento "header".
+
+cole o código no arquivo "Header.css".
+
+importe o arquivo "Header.css" para o arquivo "Header.jsx".
+
+na pasta "components", crie uma pasta "Header".
+
+transfira os arquivos "Header.jsx" e "Header.css" para essa pasta.
+
+atualize o caminho na importação do arquivo "Header.jsx" no arquivo "App.jsx".
+
+atualize o caminho na importação do arquivo "react-core-concepts.png" no arquivo "Header.jsx".
+
+-----------------------------------------------------------------------------------------
+
+Aula - 49
+
+no arquivo "App.jsx", adicione um elemento "section" como irmão adjacente do primeiro
+elemento section.
+
+esse novo elemento deve ter um atributo "id" com o valor "examples".
+
+dentro desse elemento, adicione um elemento "h2" com o conteúdo "Examples".
+
+abaixo do elemento "h2", adicione um elemento "menu".
+
+na pasta "components", crie um arquivo "TabButton.jsx".
+
+insira o código abaixo no arquivo "TabButton.jsx":
+export default function TabButton() {
+	return <li><button></button></li>
+}
+
+importe o componente "TabButton" para o arquivo "App.jsx".
+
+dentro do elemento "menu", insira o elemento abaixo:
+<TabButton>Components</TabButton>
+
+no arquivo "TabButton.jsx", adicione um parâmetro "props" na função "TabButton".
+
+faça a atualização no elemento "button" com o código abaixo:
+<button>{props.children}</button>
+
+use destructuring assignment para pegar a propriedade "children" do objeto "props"
+diretamente do parâmetro da função.  
+
+faça a atualização no elemento "button" com o código abaixo:
+<button>{children}</button>
+
+adicione os outros componentes "TabButton":
+<TabButton>JSX</TabButton>
+<TabButton>Props</TabButton>
+<TabButton>State</TabButton>
+
+-----------------------------------------------------------------------------------------
+
+Aula - 50
+
+no arquivo "TabButton.jsx", adicione uma prop especial "onClick" no componente "button".
+
+antes do retorno da função "TabButton", crie uma função "handleClick".
+
+na função "handleClick", execute um console.log com o argumento "Hello World!".
+
+passe a função "handleClick" como valor da prop especial "onClick" no componente "button".
+
+abra o console do browser e faça um teste clicando nos botões do projeto.
+
+-----------------------------------------------------------------------------------------
+
+Aula - 51
+
+recorte a função "handleClick" e cole no topo do corpo da função "App" no arquivo "App.jsx".
+
+renomei a função "handleClick" para "handleSelect".
+
+atualize o valor do argumento do console para "Hello World - selected!".
+
+no primeiro componente "TabButton", adicione um atributo "onSelect" e passe como valor a
+função "handleSelect".
+
+no arquivo "TabButton", adicione a propriedade "onSelect" na desestruturação da função
+"TabButton".
+
+a propriedade "onSelect" deverá ter o valor da função "handleSelect".
+
+passe o valor da propriedade "onSelect" para o atributo "onClick" no componente "button".
+
+adicione um atributo "onSelect" e passe como valor a função "handleSelect" em todos os
+componentes "TabButton".
+
+abra o console do browser e faça um teste clicando nos botões do projeto.
+
+-----------------------------------------------------------------------------------------
