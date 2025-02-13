@@ -138,3 +138,127 @@ comente o seletor "header p" e descomente o seletor "#description".
 
 -----------------------------------------------------------------------------------------
 
+Aula - 66
+
+no arquivo "full-week.css", adicione a propriedade "margin" com o valor "30px 0" 
+no seletor "a".
+
+cheque no browser se essa margem fez diferença no elemento.
+
+modifique o valor para "30px 12px" e cheque no browser novamente.
+
+delete a propriedade "margin" adicionada acima.
+
+na propriedade "padding" do mesmo seletor, modifique o valor para "0 48px".
+
+no seletor "#description" modifique a pripriedade "margin-bottom" para "margin"
+com o valor "0".
+
+no seletor "a", modifique o valor da propriedade "padding" para "12px 48px".
+
+no seletor "a", modifique o valor da propriedade "padding" para "0px 48px".
+
+no seletor "#description" adicione a pripriedade "padding-bottom" com o valor "50px".
+
+no seletor "#description" delete a pripriedade "padding-bottom".
+
+no seletor "a", modifique o valor da propriedade "padding" para "12px 48px".
+
+no seletor "a", adicione a propriedade "display" com o valor "block".
+
+no seletor "a", modifique o valor da propriedade "display" para "inline-block".
+
+no seletor "a", adicione a propriedade "margin" com o valor "12px 0".
+
+-----------------------------------------------------------------------------------------
+
+Aula - 67
+
+no seletor "#description" modifique o valor da propriedade "margin" para "24px".
+
+no seletor "#description" modifique o valor da propriedade "margin" para "8px".
+
+-----------------------------------------------------------------------------------------
+
+Aula - 68
+
+no seletor "li", adicione a propriedade "box-shadow" com o valor 
+"1px 1px 4px rgba(0, 0, 0, 0.2)".
+
+nos seletores "h1" e "a", modifique o valor da propriedade "margin" para "0".
+
+no seletor "#description" modifique o valor da propriedade "margin" para "12px 0".
+
+-----------------------------------------------------------------------------------------
+
+Aula - 70
+
+no arquivo html "index.html", adicione um elemento "main" como filho direto do elemento
+"body".
+
+aninhe os elementos "img", "h1" e o elemento "p" com atributo "id" dentro do elemento "main".
+
+adicione um elemento "footer" como irmão adjacente do elemento "main".
+
+aninhe o elemento "p" restante no elemento "footer".
+
+aninhe o conteúdo "Wednesday, August 4th" do elemento "h1" em um elemento "span".
+
+-----------------------------------------------------------------------------------------
+
+Aula - 71
+
+no arquivo "daily-challenge.css", delete o seletor "body".
+
+adicione a propriedade "margin" no seletor "body" do arquivo "shared.css" com o valor
+"50px".
+
+no topo do arquivo "daily-challenge.css", adicione um seletor "main" com as propriedades e 
+valores:
+width: 800px;
+margin: 200px auto 72px;
+background-color: rgb(219, 108, 94);
+padding: 24px;
+border: 5px solid rgb(44, 44, 44);
+border-radius: 8px;
+box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
+
+-----------------------------------------------------------------------------------------
+
+Aula - 72
+
+no arquivo "daily-challenge.css" adicione a propriedade "border" com o valor 
+"5px solid rgb(44, 44, 44)" no seletor "img".
+
+no seletor "img" adicione a propriedade "margin-top" com o valor "10px".
+
+no seletor "img" modifique o valor da propriedade "margin-top" para "-20px".
+
+no seletor "img" modifique o valor da propriedade "margin-top" para "0px".
+
+no seletor "img" modifique o valor da propriedade "margin-top" para "-29px".
+
+no seletor "img" modifique o valor da propriedade "margin-top" para "calc( -29px - 105px)".
+
+-----------------------------------------------------------------------------------------
+
+Aula - 73
+
+no arquivo "daily-challenge.css", abaixo do seletor "img", adicione um seletor "h1".
+
+no seletor "h1", adicione as propriedades e valores:
+font-size: 30px;
+color: rgb(31, 25, 25);
+
+abaixo do seletor "h1", adicione um seletor "span" com a propriedade "color" e o valor
+"rgb(66, 2, 2)".
+
+no seletor "#todays-challenge", modifique o valor da propriedade "color" para
+"rgb(75, 29, 29)".
+
+abaixo do seletor "h1", adicione um seletor "a" com a propriedade "color" e o valor
+"rgb(72, 29, 50)";
+
+no arquivo "shared.css" adicione a propriedade "font-size" no seletor "p" com o 
+valor "24px".
+
