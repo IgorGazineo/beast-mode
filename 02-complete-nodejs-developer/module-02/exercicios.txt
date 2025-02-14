@@ -1,6 +1,9 @@
 Aula 16
 
-1 - crie um arquivo "hello.js" e atribua a uma constante "mission" a string "learn".
+crie uma pasta com o próximo número do exercício.
+
+1 - dentro da pasta, crie um arquivo "hello.js" e atribua a uma constante "mission" 
+a string "learn".
 
 crie uma estrutura de controle de fluxo para que caso a constante "mission" tenha o valor
 igual a "learn", a string "Time to write some Node code!" seja printada no console.
