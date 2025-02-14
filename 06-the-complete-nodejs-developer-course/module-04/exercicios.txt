@@ -1,0 +1,359 @@
+Aula - 15
+
+faça uma cópia da pasta "00-starting" com o número do próximo exercício.
+
+execute o comando "npm install" no diretório do projeto.
+
+crie um arquivo ".gitignore" para ignorar a pasta "node_modules".
+
+execute o arquivo "app.js" no node.
+
+execute o arquivo "app.js" no modelo abaixo:
+"node app.js Andrew".
+
+execute um console.log, passando como argumento a propriedade "argv" do objeto "process".
+
+execute o comando abaixo:
+"node app.js Andrew".
+
+faça console exibir o terceiro item do array "argv" executando o comando "node app.js Andrew".
+
+delete o código do arquivo "app.js" exceto as primeiras 2 linhas.
+
+na linha 4, crie uma constante "command" que deve receber o retorno do terceiro item do
+array "argv".
+
+abaixo, crie uma condição onde caso o valor de "command" seja a string "add", um console.lo
+é executado com a mensagem "Adding note!". 
+
+caso o valor de "command" seja a string "remove", um console.log é executado com a mensagem
+"Removing note!".
+
+execute os comandos abaixo para testar o programa:
+"node app.js add"
+"node app.js remove"
+
+execute um console.log passando como argumento "process.argv" e execute o comando abaixo:
+"node app.js add --title='This is my title'".
+
+----------------------------------------------------------------------------------------------
+
+Aula - 16
+
+instale o pacote "yargs" na versão "12.0.2" executando o comando abaixo:
+"npm install yargs@12.0.2"
+
+na linha 2 do arquivo "app.js", execute o método "require" passando como argumento a string
+"yargs".
+
+capture o o retorno dessa expressão em uma constante "yargs".
+
+delete todo o código do arquivo "app.js" exceto as 3 primeiras linhas.
+
+abaixo, execute um console.log passando como argumento "process.argv".
+
+abaixo execute um segundo console.log passando como argumento "yargs.argv".
+
+execute o comando abaixo:
+"node app.js"
+
+execute o comando abaixo:
+"node app.js add --title='Things to buy'"
+
+delete a linha que executa o primeiro console.log.
+
+execute o comando abaixo:
+"node app.js --help"
+
+execute o comando abaixo:
+"node app.js --version"
+
+acima do console.log, execute o método "version" do objeto "yargs" passando como argumento
+a string "1.1.0".
+
+execute o comando abaixo:
+"node app.js --version"
+
+abaixo da execução do método "version", execute o método "command" do objeto "yargs".
+
+passe como argumento um objeto com as seguintes propriedades e valores:
+command: 'add';
+describe: 'Add a new note';
+handler: function () {
+	console.log('Adding a new note!')
+};
+
+execute o comando abaixo:
+"node app.js --help"
+
+execute o comando abaixo:
+"node app.js add"
+
+abaixo da primeira execução do método "command", execute um outro método "commando" passando
+como argumento um objeto com as propriedades e valores abaixo:
+command: 'remove';
+describe: 'Remove a new note';
+handler: function () {
+	console.log('Removing the note!')
+};
+
+execute o comando abaixo:
+"node app.js --help"
+
+execute o comando abaixo:
+"node app.js remove"
+
+abaixo da segunda execução do método "command", execute um outro método "commando" passando
+como argumento um objeto com as propriedades e valores abaixo:
+command: 'list';
+describe: 'List your notes';
+handler: function () {
+	console.log('Listing out all notes!')
+};
+
+abaixo da terceira execução do método "command", execute um outro método "commando" passando
+como argumento um objeto com as propriedades e valores abaixo:
+command: 'read';
+describe: 'Read a note';
+handler: function () {
+	console.log('Reading a note!')
+};
+
+execute os comandos abaixo:
+"node app.js list"
+"node app.js read"
+
+----------------------------------------------------------------------------------------------
+
+Aula - 17
+
+na primeira execução do método "command", adicione uma propriedade "builder" ao objeto
+passado como argumento.
+
+o valor da propriedade "builder" é um objeto com as seguintes propriedades e valores:
+title: {
+	describe: 'Note title'
+}
+
+adicione um parâmetro "argv" na propriedade(método) "handler", e passe esse parâmetro como
+segundo argumento do console.log executado na função.
+
+execute os comandos:
+ "node app.js add --title='Shopping list'"
+ "node app.js add"
+
+no objeto "title" do objeto "builder" do objeto passado como argumento do método "command",
+adicione uma propriedade "demandOption" com o valor booleano "true".
+
+execute o comando: "node app.js add"
+
+execute o comando: "node app.js add --title"
+
+no objeto "title" adicione uma propriedade "type" com o valor de uma string "string".
+
+execute os comandos: 
+"node app.js add --title"
+"node app.js add --title='My title'"
+
+comente a ultima linha da execução do console no arquivo "app.js" e execute o comando:
+"node app.js add --title='My title'"
+
+acima do console comentado, execute um método "parse" do objeto "yargs".
+
+execute o comando: "node app.js add --title='My title'"
+
+na função "handler" do primeiro objeto passado como argumento do método "command", 
+modifique o argumento do console para: "'Title: ' + arvg.title"
+
+#challenge:
+
+para o objeto passado como argumento do primeiro método "command", faça o seguinte:
+configure uma opção para "body".
+configure uma descrição e faça a descrição ser exigida com o valor do tipo string.
+para a propriedade "describe", use o valor "Note body".
+printe o valor de "body" na função "handler" no modelo: "'Body: ' + arvg.body"
+teste a aplicação executando o comando sem passar um valor para o "body".
+teste novamente passando um valor para o "body".
+
+----------------------------------------------------------------------------------------------
+
+Aula - 18
+
+dentro do projeto, crie uma nova pasta "playground".
+
+feche todos os arquivos.
+
+dentro da pasta "playground", crie um arquivo "1-json.js".
+
+no arquivo "1-json.js", crie uma constante "book" na qual o valor é o objeto abaixo:
+{
+	title: 'Ego is the Enemy',
+	author: 'Ryan Holiday'
+}
+
+execute um método "stringify" do objeto "JSON" passando como argumento a constante "book".
+
+armazene o resultado dessa expressão em uma constante "bookJSON".
+
+exiba no console o resultado da constante "bookJSON".
+
+após a execução do console, execute um método "parse" do objeto "JSON" passando como
+argumento a constante "bookJSON".
+
+armazene o resultado dessa expressão em uma constante "parsedData".
+
+exiba no console o resultado da constante "parsedData.author".
+
+na primeira linha do arquivo, execute um método "require" passando como argumento a string "fs".
+
+armazene o retorno dessa expressão em uma constante "fs".
+
+delete as 3 últimas linhas do arquivo.
+
+na ultima linha, execute um método "writeFileSync" do objeto "fs".
+
+passe como primeiro argumento do método a string "1-json.json".
+
+passe como segundo argumento do método a constante "bookJSON".
+
+execute o arquivo "1-json.js" com node.
+
+comente todo o código do arquivo "1-json.js" exceto a primeira linha.
+
+abaixo do código comentado, execute um método "readFileSync" do objeto "fs".
+
+passe como argumento do método a string "1-json.json".
+
+armazene o retorno dessa expressão e uma constante "dataBuffer".
+
+exiba no console o valor dessa constante.
+
+exiba no console o valor da expressão "dataBuffer.toString()".
+
+delete o console.log acima.
+
+armazene em uma constante "dataJSON" o retorno da expressão "dataBuffer.toString()".
+
+abaixo, armazene em uma constante "data" o retorno da expressão "JSON.parse(dataJSON)".
+
+exiba no console o valor da propriedade "title" do objeto "data".
+
+#challenge
+
+comente todo o código do arquivo "1-json.js", exceto a primeira linha.
+
+substitua o conteúdo do arquivo "1-json.json" pelo conteúdo abaixo: 
+{"name":"Andrew","planet":"Earth","age":27}
+
+Your challenge:
+1 - Load and parse the JSON data
+2 - Change the name and age property using your info
+3 - Stringify the changed object and overwrite the original data
+4 - Test your work by viewing data in the JSON file
+
+----------------------------------------------------------------------------------------------
+
+Aula - 19
+
+volte para o projeto inicial e exclua o arquivo "notes.txt".
+
+no arquivo "notes.js", armazene em uma constante "addNote" o valor de uma função.
+
+essa função deve ter os parâmetros "title" e "body" como primeiro e segundo.
+
+faça o arquivo "notes.js" exportar um objeto com as propriedades "getNotes" e
+"addNote" contendo os valores das funções que estão no arquivo.
+
+no arquivo "app.js" atualize o nome da constante "getNotes" para "notes".
+
+na função "handler" do primeiro objeto passado como argumento do método "command", execute
+o método "addNotes" que está no objeto "notes".
+
+passe como primeiro argumento do método "addNotes" a propriedade "title" do parâmetro "argv"
+e como segundo argumento, a propriedade "body" do parâmetro "argv".
+
+no topo do arquivo "notes.js", execute o método "require" com o argumento a string "fs" 
+e armazene o retorno dessa expressão em uma constante "fs".
+
+abaixo da função "addNotes", armazene em uma constante "loadNotes" uma função.
+
+no corpo da função "loadNotes", execute o método "readFileSync" do módulo "fs" passando
+como argumento a string "notes.json".
+
+armazene essa expressão em uma constante "dataBuffer".
+
+abaixo, execute a expressão "dataBuffer.toString()" e armazene o retorno em uma constante
+"dataJSON".
+
+abaixo, faça a função retornar a expressão "JSON.parse(dataJSON)".
+
+no corpo da função "addNote", execute a função "loadNotes" e armazene o retorno em uma 
+constante "notes".
+
+execute o comando "node app.js add --title='t' --body='b'".
+
+para corrigir o erro, execute um "try catch statement" na função "loadNotes" do arquivo 
+"notes.js".
+
+no topo do corpo da função, insira o código abaixo:
+try {
+
+} catch (e) {
+
+}
+
+recorte o código criado anteriormente na função, e cole no escopo do "try statement".
+
+faça o escopo do "catch statement" retornar um array vazio.
+
+execute um console.log na função "addNotes" passando como argumento a contante "notes".
+
+execute o comando "node app.js add --title='t' --body='b'".
+
+após a contante "notes" na função "addNote", execute um método "push" no array "notes"
+passando como argumento um objeto com os valores dos parâmetros "title" e "body".
+
+abaixo da função "addNote", armazene em uma constante "saveNotes" o valor de uma função.
+
+a função "saveNotes" contém um parâmetro "notes".
+
+na função "addNote" substitua a expressão do console pela expressão "saveNotes(notes)".
+
+na função "saveNotes", armazene em uma constante "dataJSON" o retorno da expressão
+"JSON.stringify(notes)".
+
+abaixo execute o método "writeFileSync" passando como primeiro argumento a string 
+"notes.json" e como segundo, o valor de "dataJSON".
+
+execute o comando "node app.js add --title='t' --body='b'".
+
+abra o arquivo "notes.json".
+
+execute o comando "node app.js add --title='List' --body='Seater, Pants'".
+
+cheque o arquivo "notes.json".
+
+abaixo da criação da constante "notes" na função "addNote", crie uma constante 
+"duplicateNotes" que armazena o retorno da expressão: 
+"notes.filter((note) => note.title === title)".
+
+abaixo, crie uma condição que chega a expressão "duplicateNotes.length === 0".
+
+transfira o código que está abaixo, para o escopo dessa condição.
+
+adicione a execução de um console.log, passando como o argumento a string "New note added!".
+
+caso a condição seja falsa, execute um console.log passando como argumento uma string
+"Note title taken!".
+
+execute o comando "node app.js add --title='List' --body='Seater, Pants'".
+
+cheque o arquivo "notes.json".
+
+execute o comando "node app.js add --title='List 2' --body='Seater, Pants'".
+
+cheque o arquivo "notes.json".
+
+----------------------------------------------------------------------------------------------
+
+
