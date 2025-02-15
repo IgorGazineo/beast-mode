@@ -37,3 +37,27 @@ caso não seja, exiba no console o valor de "name".
 
 --------------------------------------------------------------------------------------------
 
+Aula - 23
+
+crie um arquivo "arguments.js".
+
+#challenge
+- crie uma função para descobrir o valor de gorjeta de uma conta.
+- a função deve ter 2 parâmetros: total, tipPercent.
+- a função deve retornar o valor que a porcentatem "tipPercent" representa do valor total.
+
+--------------------------------------------------------------------------------------------
+
+Aula - 26
+
+#challenge
+
+- crie um arquivo "grade-calc.js"
+- crie uma função "gradeCalc" que calcula a média do aluno.
+- essa função deve ter 2 parâmetros: score, totalPossibleScore.
+- essa função deve retornar uma string no modelo: "You got a C (75%)!"
+- sistema de média: A 90-100 | B 80-89 | C 70-79 | D 60-69 | F 0-59
+
+
+
+
