@@ -27,3 +27,110 @@ para corrigir o erro, volte o valor de "number1" para o número 5 e compile o ar
 
 --------------------------------------------------------------------------------------
 
+Aula - 13
+
+no topo da função "add", crie uma condição checando a seguinte expressão:
+"typeof n1 !== 'number' || typeof n2 !== 'number'".
+
+caso a condição seja verdadeira, lance o seguinte erro:
+"throw new Error('Incorrect input!')" 
+
+caso contrário, retorne o resultado de n1 + n2.
+
+execute a aplicação e cheque o console do browser.
+
+comente o código criado acima e volte a função para o código anterior.
+
+--------------------------------------------------------------------------------------
+
+Aula - 15
+
+abaixo da constante "number2", crie uma constante "printResult" recebendo o valor booleano
+"true".
+
+passe essa constante como um terceiro argumento da execução da função "add".
+
+adicione um terceiro parâmetro "showResult" na função "add".
+
+defina a tipagem desse parâmetro para o tipo "boolean".
+
+crie uma condição na função "add" onde caso a variável "showResult" receba o valor "true"
+um console.lo é executado mostrando o resultado de n1 + n2.
+
+caso contrário, a função retorna o resultado de n1 + n2.
+
+delete a constante "result".
+
+abaixo da constante "printResult", crie uma constante "resultPhrase" recebendo o valor de
+uma string "Result is:".
+
+passe a "resultPhrase" como quarto argumento da execução da função "add".
+
+adicione um parâmetro "phrase" na função "add", definindo a tipagem do tipo "strinng".
+
+modifique o valor do argumneto da execução do console.log para: "phrase + n1 + n2".
+
+compile o arquivo e verifique o resultado no browser. 
+
+corrija o erro para que o console.lo exiba o resultado correto.
+
+--------------------------------------------------------------------------------------
+
+Aula - 17
+
+renomei o arquivo "app.ts" para "basics.ts" e crie um novo arquivo "app.ts".
+
+no arquivo "app.ts", crie uma constante "person" que recebe o seguinte objeto:
+
+{
+	name: 'Maximilian',
+	age: 30
+}
+
+execute um console.log, passando como argumento a constante "person".
+
+defina a tipagem da constante "person" com o tipo "object".
+
+tente acessar a propriedade "name" do objeto "person" no console.log adicionando um ponto('.').
+
+redefina a tipagem da constante "person" como um objeto com as propriedades "name" e "age"
+e com o tipo "string" para "name" e "number" para "age".
+
+tente acessar a propriedade "name" do objeto "person" no console.log adicionando um ponto('.').
+
+--------------------------------------------------------------------------------------
+
+Aula - 19
+
+no objeto "person", adicione uma propriedade "hobbies".
+
+o valor que a propriedade "hobbies" armazena, deve ser um array com as strings "Sports" e
+"Cooking".
+
+na tipagem do objeto "person", tipe a propriedade "hobbies" como um array de strings "string[]".
+
+itere sobre o array "hobbies" através de um "for" e exiba os valores no console.
+
+execute um método "toUpperCase" nos valores e exiba o resultado no console.
+
+--------------------------------------------------------------------------------------
+
+Aula - 20
+
+no objeto "person", adicione a propriedade "role" armazenando o valor do array abaixo:
+"[2, 'author']"
+
+tipe a propriedade adicionada acima com o valor abaixo:
+"[number, string]"
+
+dente executar um método "push" no array "role" adicionando um valor da string "admin".
+
+comente a linha executando o método "push".
+
+tente passar para o abaixo para o array "role" através de uma reatribuição:
+"[0, 'admin', 'user']"
+
+comente a linha criada acima.
+
+
+
