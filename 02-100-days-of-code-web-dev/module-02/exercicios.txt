@@ -111,6 +111,8 @@ adicione ao elemento de imagem, um atributo "src" e um atributo "alt".
 para o atributo "src", adicione o valor com o caminho 'path' que referencia o arquivo 
 de imagem "challenges-trophy.jpg" no diretório em um nível acima deste. 
 
+opção de link externo da imagem: "https://raw.githubusercontent.com/academind/100-days-of-web-development/refs/heads/02-html-css-basics/extra-files/challenges-trophy.jpg"
+
 para o atributo "alt", adicione o valor "A trophy" que descreve a imagem.
 
 ----------------------------------------------------------------------------
