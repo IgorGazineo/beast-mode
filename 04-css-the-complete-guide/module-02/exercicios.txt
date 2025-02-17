@@ -7,7 +7,7 @@ Plan".
 
 crie um arquivo "main.css" e linque-o ao arquivo html.
 
-no arquivo css, adicione um seletor "section" que contê uma propriedade "background" com o 
+no arquivo css, adicione um seletor "section" que contém uma propriedade "background" com o 
 valor "#ff1b68".
 
 --------------------------------------------------------------------------------
