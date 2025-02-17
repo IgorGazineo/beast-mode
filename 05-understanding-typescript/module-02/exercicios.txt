@@ -132,5 +132,138 @@ tente passar para o abaixo para o array "role" através de uma reatribuição:
 
 comente a linha criada acima.
 
+--------------------------------------------------------------------------------------
 
+Aula - 21
 
+crie uma tipagem personalizada "Role" com a palavra-chave "enum" no modelo abaixo:
+"enum Role { ADMIN, READ_ONLY, AUTHOR }"
+
+passe o valor a propriedade "ADMIN" do objeto "Role" para a propriedade "role" do objeto
+"person".
+
+na condição, cheque se a propriedade "role" do objeto "person" tem o mesmo valor da
+propriedade "ADMIN" do objeto "Role".
+
+caso seja, execute um console.log com a string "is admin".
+
+--------------------------------------------------------------------------------------
+
+Aula - 23
+
+renomei o arquivo "app.ts" para "objs-arrays-enums.ts".
+
+crie um novo arquivo "app.ts".
+
+coipe o código abaixo e cole no arquivo "app.ts".
+"
+function combine(input1: number, input2: number) {
+	const result = input1 + input2;
+	return result;
+}
+
+const combinedAges = combine(30, 26);
+console.log(combinedAges);
+const combinedNames = combine('Max', 'Anna');
+console.log(combinedNames);
+
+"
+
+corrija o erro fazendo com que a função "combine" aceite argumentos do tipo 
+"number" ou "string" utilizando "union types".
+
+para corrigir o erro da função, faça uma condição que checa se os valores dos parâmetros
+são do tipo "number".
+
+caso sejam, a função deve retornar a soma dos valores.
+
+caso não sejam, a função deve converter explicitamente os valores para "string" e retornar
+a concatenação das strings.
+
+--------------------------------------------------------------------------------------
+
+Aula - 25
+
+crie uma tipagem customizada "Combinable" com a palavra-chave "type".
+
+a tipagem "COmbinable" deve aceitar os tipos "number" ou "string".
+
+crie uma variável "value1" tipando-a com a tipagem "Combinable".
+
+teste a variável "value1" passando alguns tipos de dados diferente.
+
+--------------------------------------------------------------------------------------
+
+Aula - 27
+
+renomei o arquivo "app.ts" para "union-aliases.ts".
+
+crie um novo arquivo "app.ts".
+
+copie e cole no arquivo "app.ts" a função abaixo:
+"
+function add(n1: number, n2:number){
+	return n1 + n2;
+}
+"
+
+faça a tipagem do retorno dessa função de forma explícita para o tipo "number".
+
+--------------------------------------------------------------------------------------
+
+Aula - 28
+
+declare uma variável "combineValues".
+
+faça essa variável receber o valor da função "add".
+
+na declaração da variável, faça a tipagem dela de modo que ela aceite uma função contendo
+2 parâmetros do tipo "number" e retorna um valor do tipo "number".
+
+teste a função "combineValues".
+
+--------------------------------------------------------------------------------------
+
+Aula - 29
+
+crie uma função "addAndHandle" contendo 3 parâmetros: "n1", "n2" e "cb".
+
+tipe os 2 primeiros parâmetros como "number".
+
+tipe o terceiro parâmetro como uma função que tem um parâmetro do tipo "number" e tem o 
+retorno do tipo "void".
+
+a função "addAndHandle" deve somar "n1" com "n2" e armazenar em uma constante "result".
+
+e em seguida, deve executar "cb" passando como argumento a constante "result".
+
+teste a função "addAndHandle" executando-a, passando como primeiro argumento o valor 10 e
+como segundo o valor 5. 
+
+como terceiro uma função que contém um parâmetro "result" e exibe o resultado de 
+"result" em um console.log.
+
+--------------------------------------------------------------------------------------
+
+Aula - 30
+
+renomeio o arquivo "app.ts" para "functions.ts".
+
+crie um novo arquivo "app.ts".
+
+crie uma variável "userInput1" tipando-a com o valor "any".
+
+crie uma variável "userInput2" tipando-a com o valor "unknown".
+
+crie uma variável "userName" tipando-a com o valor "string".
+
+atribua a variável "userName" o valor da variável "userInput1".
+
+atribua a variável "userName" o valor da variável "userInput2".
+
+para corrigir o erro, faça uma condição que checa o tipo da variável "userInput2".
+
+caso o valor seja do tipo "string", atribua a variável "userName" o valor da variável 
+"userInput2".
+
+--------------------------------------------------------------------------------------
