@@ -123,12 +123,12 @@ no objeto "person", adicione a propriedade "role" armazenando o valor do array a
 tipe a propriedade adicionada acima com o valor abaixo:
 "[number, string]"
 
-dente executar um método "push" no array "role" adicionando um valor da string "admin".
+tente executar um método "push" no array "role" adicionando um valor da string "admin".
 
 comente a linha executando o método "push".
 
-tente passar para o abaixo para o array "role" através de uma reatribuição:
-"[0, 'admin', 'user']"
+tente passar o item 'user' para o array "role" através da notação abaixo:
+"person.role[2] = 'user'"
 
 comente a linha criada acima.
 
