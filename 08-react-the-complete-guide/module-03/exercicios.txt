@@ -285,3 +285,24 @@ componentes "TabButton".
 abra o console do browser e faça um teste clicando nos botões do projeto.
 
 -----------------------------------------------------------------------------------------
+
+Aula - 52
+
+na função "handleSelect" do arquivo "App.jsx", adicione um parâmetro "selectedButton".
+
+modifique o valor passado para o atributo "onSelect" do componente "TabButton" para
+uma arrow function que executa a função "handleSelect".
+
+passe como argumento das execuções da função "handleSelect" as seguintes strings:
+'components', 'jsx', 'props' e 'state'
+
+passe como argumento do console.log da função "handleSelect", o parâmetro "selectedButton".
+
+-----------------------------------------------------------------------------------------
+
+Aula - 54
+
+
+
+
+
