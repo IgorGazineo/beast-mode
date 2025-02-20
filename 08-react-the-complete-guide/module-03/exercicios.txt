@@ -302,7 +302,113 @@ passe como argumento do console.log da função "handleSelect", o parâmetro "se
 
 Aula - 54
 
+no topo do arquivo "App.jsx", importe o Hook "useState" da biblioteca "react".
 
+execute a função "useState" no topo do escopo da função "App".
 
+passe como argumento da execução de "useState" a string "Please click a button".
 
+use array destructuring para armazenar o retorno da execução de "useState".
 
+armazene o primeiro elemento em uma constante "selectedTopic".
+
+armazene o segundo elemento em uma constante "setSelectedTopic" que é uma função.
+
+dentro da função "handleSelect", execute a função "selectedTopic" passando como argumento
+o parâmetro "selectedButton".
+
+exiba o valor da constante "selectedTopic" abaixo do elemento "menu" da função "App".
+
+teste a aplicação no browser clicando nos botões dinâmicos.
+
+-----------------------------------------------------------------------------------------
+
+Aula - 55
+
+delete a linha que exibe o valor de "selectedTopic".
+
+no lugar, adicione um compnente com um elemento "div".
+
+adicione ao elemento, um atributo "id" com o valor "tab-content".
+
+dentro do elemento "div", adicione os seguintes elementos:
+"
+	<h3></h3>
+	<p></p>
+	<pre>
+		<code></code>
+	</pre>
+"
+
+importe a constante "EXAMPLES" do arquivo "data.js" para o arquivo "App.jsx".
+
+renderize de forma dinâmica os valores dos objetos de acordo com o clique do usuário.
+
+no elemento "h3", exiba o valor da propriedade "title" do objeto clicado que está 
+no objeto "EXAMPLES".
+
+no elemento "p", exiba o valor da propriedade "description" do objeto clicado que está 
+no objeto "EXAMPLES".
+
+no elemento "code", exiba o valor da propriedade "code" do objeto clicado que está 
+no objeto "EXAMPLES".
+
+utilize a notação de colchete para isso.
+
+modifique o valor passado como argumento inicial da função "useState" para
+a string "components".
+
+-----------------------------------------------------------------------------------------
+
+Aula - 56
+
+modifique o valor passado como argumento inicial da função "useState" para "null".
+
+acima do retorno da função "App", declare uma variável "tabContent" que armazena
+o valor do elemento abaixo:
+"<p>Please select a topic.</p>"
+
+abaixo, crie uma condição que chega o valor da constante "selectedTopic".
+
+caso "selectedTopic" tenha um valor truthy, recorte a "div" com id "tab-content" e
+reatribua o valor da variável "tabContent" para armazenar esse componente.
+
+no lugar da div, faça a função "App" renderizar o valor da variável "tabContent".
+
+-----------------------------------------------------------------------------------------
+
+Aula - 57
+
+no arquivo "TabButton.jsx", adicione um parâmetro "isSelected" na desestruturação da 
+função "TabButton".
+
+adicione uma propriedade "className" no elemento "button" da função "TabButton".
+
+faça essa propriedade receber o valor de uma string "active" caso o valor da propriedade
+"isSelected" armazene um boolean com o valor "true".
+
+caso contrário, a propriedade deve receber uma string vazia.
+
+faça isso utilizando o operator ternário.
+
+adicione um atributo "isSelected" para cada combonente "TabButton" do arquivo "App.jsx". 
+
+faça o atributo receber o valor de forma dinâmica baseado no valor da constante
+"selectedTopic".
+
+-----------------------------------------------------------------------------------------
+
+Aula - 58
+
+faça os componentes "CoreConcet" serem renderizados de forma dinâmica baseado na 
+quantidade de elementos no array "CORE_CONCEPTS".
+
+utilize o método "map" para isso.
+
+na função de callback do método "map", nomei o parâmetro de "conceptItem".
+
+comente um elemento do array "CORE_CONCEPTS" no arquivo "data.js" e cheque o resultado
+da aplicação no browser.
+
+adicione uma propriedade "key" no elemento "CoreConcept" e passe a valor da propriedade
+"title" do parâmetro "conceptItem".
