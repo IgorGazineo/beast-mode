@@ -5,12 +5,8 @@ crie uma pasta com o próximo número e dentro crie um arquivo "first-app.ts".
 copie e cole o código abaixo e de forma explícita, set a tipagem da variável 'userID' 
 para que ela aceite a reatribuição do tipo number ou string.
 
-*/
-
 // let userID = "abc1";
 // userID = 123;
-
-/*
 
 para compilar o arquivo, abra o terminal integrado e rode o comando 
 'npx tsc' + o nome do arquivo.
@@ -78,7 +74,7 @@ crie uma função "calculate" que chama uma função "calcFn" passando 2 argumen
 
 a função "calcFn" e os 2 argumentos "a" e "b", são parâmetros da função "calculate".
 
-adicione os com 3 parâmetros na função "calculate": "a", "b" e "calcFn".
+adicione os 3 parâmetros na função "calculate": "a", "b" e "calcFn".
 
 faça a tipagem de forma explícita dos parâmetros "a" e "b" para o tipo "number".
 
@@ -147,7 +143,7 @@ crie uma tipagem customizada "Role" com a palavra-chave reservada "type".
 
 essa tipagem deve aceitar os valores: 'admin', 'user' ou 'editor'.
 
-crie uma função "perforAction".
+crie uma função "performAction".
 
 adicione um primeiro parâmetro "action" e tipe-o com o valor "string" ou "number".
 

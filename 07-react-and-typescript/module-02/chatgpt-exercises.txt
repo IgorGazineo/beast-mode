@@ -1,0 +1,130 @@
+let user: {
+  name: string;
+  age: number;
+  isAdmin: boolean;
+  id: string | number;
+};
+
+// Exercise 1
+// Create an interface called UserType that matches the structure of the user object above
+// Then use it to create a new user variable
+
+
+
+// Exercise 2
+// Create a type alias called UserId that can be either string or number
+// Then modify the UserType interface to use this type alias for the id property
+
+
+
+// Exercise 3
+// Create a function called createUser that:
+// - Takes parameters matching the UserType interface
+// - Returns a UserType object
+// - Makes the isAdmin parameter optional with a default value of false
+
+
+
+// Exercise 4
+// Create an array type that can hold multiple users
+// Then create an array with 2-3 users
+
+
+
+// Exercise 5
+// Create a function called updateUser that:
+// - Takes a UserType and a partial UserType as parameters
+// - Returns a new UserType with merged properties
+// Hint: Look up utility type Partial<T>
+
+
+
+// Test your solutions here:
+
+//---------------------------------------------------------
+
+Solutions:
+
+// Exercise 1
+// Create an interface called UserType that matches the structure of the user object
+interface UserType {
+    name: string;
+    age: number;
+    isAdmin: boolean;
+    id: string | number;
+}
+
+// Testing Exercise 1
+const user1: UserType = {
+    name: "John",
+    age: 25,
+    isAdmin: false,
+    id: 1
+};
+
+// Exercise 2
+// Create a type alias for UserId and modify the interface
+type UserId = string | number;
+
+interface UserType2 {
+    name: string;
+    age: number;
+    isAdmin: boolean;
+    id: UserId;
+}
+
+// Exercise 3
+// Create a function that takes UserType parameters and returns UserType
+function createUser(
+    name: string, 
+    age: number, 
+    id: UserId, 
+    isAdmin: boolean = false
+): UserType {
+    return {
+        name,
+        age,
+        isAdmin,
+        id
+    };
+}
+
+// Testing Exercise 3
+const newUser = createUser("Alice", 30, "123");
+
+// Exercise 4
+// Create an array type and array of users
+type UserArray = UserType[];
+
+const users: UserArray = [
+    {
+        name: "Max",
+        age: 34,
+        isAdmin: true,
+        id: "abc"
+    },
+    {
+        name: "Sarah",
+        age: 28,
+        isAdmin: false,
+        id: 123
+    }
+];
+
+// Exercise 5
+// Create a function to update user with partial data
+function updateUser(user: UserType, updates: Partial<UserType>): UserType {
+    return {
+        ...user,
+        ...updates
+    };
+}
+
+// Testing Exercise 5
+const updatedUser = updateUser(user1, { age: 26, isAdmin: true });
+
+// Full test of all solutions:
+console.log('Single User:', user1);
+console.log('Created User:', newUser);
+console.log('Users Array:', users);
+console.log('Updated User:', updatedUser);
