@@ -1,0 +1,223 @@
+Aulas - 78
+
+crie uma pasta com nomei-a com o número do próximo exercício.
+
+dentro da pasta, crie um arquivo "index.html" e crie uma estrutura básica HTML.
+
+modifique a linguagem para "pt-br".
+
+modifique o conteúdo do elemento "title" para "HTML & CSS Basics Summary".
+
+crie um arquivo "styles.css" e link este arquivo no HTML.
+
+acima do link que referencia o arquivo "styles.css", copie e cole os links das
+fontes abaixo:
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+
+como filhos direto do elemento "body", adicione os elementos "header", "main" e "footer"
+nessa ordem.
+
+-------------------------------------------------------------------------------------------
+
+Aula - 79
+
+como filhos direto do elemento "header", adicione os elementos "h1" e "img".
+
+adicione no elemento "h1" o conteúdo "HTML & CSS Basics Summary".
+
+no elemento "img", adicione os atributos "src" e "alt".
+
+como valor do atributo "src", referencie o link abaixo:
+"https://raw.githubusercontent.com/academind/100-days-of-web-development/refs/heads/04-html-css-first-practice-summary/extra-files/html-css.png"
+
+como valor do atributo alt, adicione a descrição "HTML and CSS logos".
+
+-------------------------------------------------------------------------------------------
+
+Aula - 80
+
+no arquivo "styles.css", adicione um seletor "body".
+
+no seletor, adicione as propriedades e valores:
+background-color: rgb(244, 234, 255);
+font-family: 'Roboto', sans-serif;
+
+adicione um seletor "h1" com as propriedades e valores:
+font-size: 52px;
+color: rgb(88, 49, 196);
+
+adicione um seletor "header" com as propriedades e valores:
+text-align: center;
+
+-------------------------------------------------------------------------------------------
+
+Aula - 81
+
+adicione um seletor "header img" com as propriedades e valores:
+width: 300px;
+
+no seletor "header", adicione as propriedades e valores:
+padding: 32px; 
+
+-------------------------------------------------------------------------------------------
+
+Aula - 82
+
+no arquivo "index.html", adicione dois elementos "h2" como filhos direto do elemento
+"main".
+
+para o primeiro elemento "h2", adicione o conteúdo "HTML Summary".
+
+para o segundo, adicione o conteúdo "CSS Summary".
+
+adicione um elemento "p", um "ul" e um "p" como irmão direto de cada elemento "h2".
+
+no primeiro elemento "p", adicione o conteúdo:
+ "HTML (HyperText Markup Language) is used to define our page content,
+        structure and meaning. You don't use it for styling purposes. Use CSS
+        for that instead!"
+
+no primeiro elemento "ul", adicione 5 elementos "li" filhos com os seguintes conteúdos:
+"HTML uses "elements" to describe (annotate) content"
+"HTML elements typically have an opening tag, content and then a
+          closing tag"
+"You can also have void (empty) elements like images"
+"You can also configure elements with attributes"
+"There's a long list of available elements but you'll gain experience
+          over time, no worries."
+
+no segundo elemento "p", adicione os conteúdos e elementos:
+"
+Learn more about all available HTML elements on
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element"
+          >the MDN HTML element reference</a
+        >.
+"
+
+no terceiro elemento "p", adicione o seguinte conteúdo:
+"CSS (Cascading Style Sheets) is used for styling your page content."
+
+no segundo elemento "ul", adicione 5 elementos "li" filhos com os seguintes conteúdos:
+"Styles are assigned via property-value pairs"
+"You can assign styles via the "style" attribute"
+"To avoid code duplication, you typically use global styles (e.g. via
+          the "style" element) instead"
+"Alternatively, you can work with external stylesheet files which you
+         "link" to"
+"When working with CSS, concepts like "inheritance", "specificity" and
+          the "box model" should be understood."
+
+no quarto elemento "p", adicione os conteúdos e elementos:
+"
+Learn more about all available CSS properties and values on
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference"
+          >the MDN CSS property reference</a
+        >.
+"
+
+-------------------------------------------------------------------------------------------
+
+Aula - 83
+
+no arquivo "styles.css" adicione o seletor "main" com as propriedades e valores:
+background-color: rgb(122, 74, 218);
+padding: 32px;
+width: 700px;
+margin: 32px auto;
+border-radius: 8px;
+color: rgb(248, 241, 255);
+
+-------------------------------------------------------------------------------------------
+
+Aula - 84
+
+adicione um seletor "ul" com as propriedades e valores:
+margin: 0;
+padding: 0;
+list-style: none;
+
+adicione um seletor "li" com as propriedades e valores:
+margin: 14px 0;
+padding-left: 10px;
+
+no arquivo html, adicione um atributo "class" com o valor "extra-important" no primeiro, 
+terceiro, quarto, oitavo e ultimo elemento "li".
+
+no arquivo css, adicione um seletor ".extra-important" com as propriedades e valores:
+color: rgb(255, 237, 177);
+border-left: 5px solid rgb(247, 209, 85);
+
+corte a propriedade "border-left" com o valor do seletor ".extra-important" e cole no
+seletor "li".
+
+modifique a cor da propriedade "border-left" para "transparent".
+
+no seletor ".extra-important", adicione uma propriedade "border-color" com o valor
+"rgb(247, 209, 85)".
+
+no arquivo html, aninhe o conteúdo "don't" do primeiro elemento "p" em um elemento "span".
+
+no elemento "span", adicione um atributo "class" com o valor "highlight".
+
+no arquivo css, adicione um seletor ".highlight" com as propriedades e valores:
+font-weight: bold;
+
+adicione um seletor "a" com as propriedades e valores:
+text-decoration: none;
+color: rgb(36, 3, 102);
+background-color: rgb(255, 237, 177);
+padding: 2px 6px;
+border-radius: 4px;
+
+adicione um pseudo-seletor "a:hover" e um "a:active" com as propriedades e valores:
+background-color: rgb(250, 201, 39);
+
+-------------------------------------------------------------------------------------------
+
+Aula - 85
+
+no elemento "footer" do hmtl, adicione os elementos "a" e "p" nessa ordem.
+
+no elemento "p" adicione o conteúdo "(c) Academind GmbH".
+
+no elemento "a", adicione o conteúdo "Download PDF Summary".
+
+no elemento "a", adicione um atributo "href" com o valor 
+"https://github.com/academind/100-days-of-web-development/blob/04-html-css-first-practice-summary/extra-files/html-css-basics-summary.pdf"
+
+adicione no mesmo elemento um atributo "target" com o valor "_blank".
+
+no arquivo css, adicione um seletor "footer" com as propriedades e valores:
+text-align: center;
+
+adicione um seletor "footer p" com as propriedades e valores:
+color: rgb(131, 113, 149);
+margin-top: 30px;
+
+adicione um seletor "footer a" com as propriedades e valores:
+padding: 12px 20px;
+border-radius: 8px;
+background-color: rgb(250, 201, 39);
+color: rgb(66, 51, 4);
+
+adicione um pseudo-seletor "footer a:hover" e um "footer 
+a:active" com as propriedades e valores:
+background-color: rgb(255, 186, 58);
+
+-------------------------------------------------------------------------------------------
+
+Aula - 86
+
+no arquivo html, troque o elemento "span" por um elemento "em".
+
+troque o elemento "em" por um elemento "strong".
+
+separe os elementos dentro do elemento "main" em dois elementos "section".
+
+
+
+
