@@ -1,0 +1,104 @@
+Aula - 49
+
+abra uma pasta do último exercício do módulo anterior.
+
+no novo arquivo, execute o comando "npm init -y" para inicializar o gerenciamento do 
+projeto com acesso aos pacotes npm.
+
+instale o pacote "axios" com o comando "npm i axios".
+
+crie um arquivo ".gitignore" para ignorar o arquivo "node_modules" no gerenciamento 
+do git.
+
+no arquivo "package.json", adicione o seguinte stript:
+"start": "node https.js"
+
+execute o comando "npm run start" ou "npm start".
+
+delete os arquivos ".gitignore", "node_modules", "package.json" e "package-lock.json".
+
+----------------------------------------------------------------------------------------------
+
+Aula - 51
+
+crie uma pasta com o número do próximo exercício.
+
+na nova pasta, execute o comando "npm init -y" para inicializar o gerenciamento do 
+projeto com acesso aos pacotes npm.
+
+instale o pacote "axios" com o comando "npm i axios" ou "npm install axios".
+
+crie um arquivo "request.js".
+
+crie um arquivo ".gitignore" e ignore o arquivo "node_modules" no gerenciamento do git.
+
+dentro do arquivo, crie uma constante "axios" que recebe o retorno da execução do método
+"require" tendo como argumento a string "axios".
+
+abaixo, execute o método "get" do objeto "axios", passando como argumento a string
+"https://www.google.com".
+
+encadeie o método "then", passando uma callback function como argumento.
+
+essa callback function tem um parâmetro "response" e exibe esse parâmetro no console.log.
+
+execute o arquivo "request.js" com o node.
+
+modifique o argumento do método "get" para a string "https://wwwww.google.com"
+
+execute o arquivo "request.js" com o node.
+
+para lidar com algum erro, você deve encadear o método "catch" no método "get", passando
+como argumento uma callback function.
+
+essa callback tem um parâmetro "err" e exibe esse parâmetro no console.log.
+
+execute o arquivo "request.js" com o node.
+
+encadeie um método "then" no método "catch", passando como argumento uma callback function.
+
+essa callback function apenas exibe no console a string "All done!".
+
+execute o arquivo "request.js" com o node.
+
+no arquivo "package.json", adicione o seguinte script:
+"start": "node request.js"
+
+modifique o argumento do método "get" para a string "https://www.google.com".
+
+execute o arquivo "request.js" com o stcript "npm start".
+
+----------------------------------------------------------------------------------------------
+
+Aula - 55
+
+exclua a pasta "node_modules".
+
+no arquivo "package.json" atualize a versão da dependência "axios" para "^0.20.0".
+
+execute o comando "npm install".
+
+execute o comando "npm audit".
+
+execute o comando "npm audit fix".
+
+----------------------------------------------------------------------------------------------
+
+Aula - 56
+
+execute o comando "npm install nodemon".
+
+no arquivo "package.json", adicione o stript abaixo:
+"dev": "nodemon request.js"
+
+execute o comando "npm run dev".
+
+execute o comando "nodemon request.js".
+
+para desisntalar o pacote "nodemon", execute o comando "npm uninstall nodemon".
+
+delete a pasta "node_modules".
+
+
+
+
