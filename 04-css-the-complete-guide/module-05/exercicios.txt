@@ -1,0 +1,491 @@
+Aula - 60
+
+faça uma cópia do arquivo "00-starting" e renomei-o com o número do próximo exercício.
+
+crie um arquivo ".gitignore" para ignorar os de imagem do gerenciamento do git.
+
+no arquivo html, substitua o elemento "p" que contém o conteúdo "Make sure you get..."
+pelo elemento abaixo:
+<div>
+                <article>
+                    <h1>FREE</h1>
+                    <h2>$0/month</h2>
+                    <h3>For hobby projects or small teams.</h3>
+                    <ul>
+                        <li>1 Workspace</li>
+                        <li>Unlimited Traffic</li>
+                        <li>10GB Storage</li>
+                        <li>Basic Support</li>
+                    </ul>
+                    <div>
+                        <button>CHOOSE PLAN</button>
+                    </div>
+                </article>
+                <article>
+                    <h1>RECOMMENDED</h1>
+                    <h1>PLUS</h1>
+                    <h2>$29/month</h2>
+                    <h3>For ambitious projects.</h3>
+                    <ul>
+                        <li>5 Workspaces</li>
+                        <li>Unlimited Traffic</li>
+                        <li>100GB Storage</li>
+                        <li>Plus Support</li>
+                    </ul>
+                    <div>
+                        <button>CHOOSE PLAN</button>
+                    </div>
+                </article>
+                <article>
+                    <h1>PREMIUM</h1>
+                    <h2>$99/month</h2>
+                    <h3>Your enterprise solution.</h3>
+                    <ul>
+                        <li>10 Workspaces</li>
+                        <li>Unlimited Traffic</li>
+                        <li>Unlimited Storage</li>
+                        <li>Priority Support</li>
+                    </ul>
+                    <div>
+                        <button>CHOOSE PLAN</button>
+                    </div>
+                </article>
+            </div>
+
+insira um atributo "class" com o valor "plan" em cada elemento "article".
+
+no arquivo css, adicione um seletor ".plan" com as propriedades e valores:
+background: #d5ffdc;
+text-align: center;
+padding: 16px;
+margin: 8px;
+display: inline-block;
+width: 30%;
+vertical-align: midle;
+
+no seletor ".section-title" adicione a propriedade "text-align" com o valor "center".
+
+-----------------------------------------------------------------------------------------------
+
+Aula - 61
+
+no html adicione um atributo "class" com o valor "plan__annotation" no primeiro elemento "h1" 
+dentro do segundo elemento "article".
+
+adicione um valor "plan--highlighted" no atributo "class" do segundo elemento "article".
+
+no arquivo css, abaixo do seletor ".plan", adicione um seletor ".plan--highlighted".
+
+no seletor ".plan--highlighted", adicione as propriedades e valores: 
+background: #19b84c;
+color: white;
+box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+-----------------------------------------------------------------------------------------------
+
+Aula - 62
+
+adicione um seletor ".plan__annotation" com as propriedades e valores:
+background: white;
+color: #19b84c;
+padding: 8px;
+box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5); 
+border-radius: 8px;
+
+-----------------------------------------------------------------------------------------------
+
+Aula - 63
+
+no arquivo html, adicione um atributo "class" nos elementos "ul" dentro do elemento "section"
+com id "plans" e adicione o valor "plan__features".
+
+no arquivo css, adicione um seletor ".plan__features" com as propriedades e valores:
+list-style: none;
+margin: 0;
+padding: 0;
+
+adicione um seletor ".plan__feature" com as propriedades e valores:
+margin: 8px 0;
+
+adicione um atributo "class" com o valor "plan__feature" para todos os elementos 
+"li" dentro das "ul"s com a classe "plan__features".
+
+-----------------------------------------------------------------------------------------------
+
+Aula - 64
+
+no html, adicione um atributo "class" com valor "plan__title" nos elementos "h1" de conteúdo
+"FREE", "PLUS" e "PREMIUM".
+
+adicione um atributo "class" com valor "plan__price" nos elementos "h2".
+
+no arquivo css, adicione um seletor ".plan__title" com propriedades e valores:
+color: #0e4f1f;
+
+adicione um seletor ".plan__price" com propriedades e valores:
+color: #858585;
+
+adicione um seletor ".plan--highlighted .plan__price" com propriedades e valores:
+color: #0e4f1f;
+
+adicione um seletor ".plan--highlighted .plan__title" com propriedades e valores:
+color: white;
+
+-----------------------------------------------------------------------------------------------
+
+Aula - 65
+
+no arquivo html, adicione um atributo "class" com valor "button" nos elementos "button"
+que contêm o conteúdo "CHOOSE PLAN".
+
+no arquivo css, adicione um seletor ".button" com as propriedades e valores:
+background: #0e4f1f;
+color: white;
+font: inherit;
+border: 1.5px solid #0e4f1f;
+padding: 8px;
+border-radius: 8px;
+font-weight: bold;
+cursor: pointer;
+
+adicione os pseudo-seletores ".button:hover" e ".button:active" para receberem as 
+propriedades e valores:
+background: #white;
+color: #0e4f1f;
+
+-----------------------------------------------------------------------------------------------
+
+Aula - 66
+
+adicione um pseudo-seletor ".button:focus" com as propriedades e valores:
+outline: none;
+
+-----------------------------------------------------------------------------------------------
+
+Aula - 67
+
+no arquivo html, adicione como irmão direto do ultimo elemento "section" o elemento abaixo:
+<section>
+            <h1>Many Good Reasons to Stick Around</h1>
+            <ul>
+                <li>
+                    <div>
+
+                    </div>
+                    <p>3,857,000 Trusting Customers</p>
+                </li>
+                <li>
+                    <div>
+
+                    </div>
+                    <p>99.999% Uptime Guarantee</p>
+                </li>
+                <li>
+                    <div>
+
+                    </div>
+                    <p>Lightning Fast CDN</p>
+                </li>
+            </ul>
+        </section>
+
+-----------------------------------------------------------------------------------------------
+
+Aula - 68
+
+no elemento "h1" do novo elemento "section", adicione um atributo "class" com o valor
+"section-title".
+
+adicione um atributo "id" para o novo elemento "section" com o valor "key-features".
+
+no arquivo css, adicione um seletor "#key-features" com as propriedades e valores:
+background: #ff1b68;
+margin-top: 80px;
+padding: 16px;
+
+adicione um seletor "#key-features .section-title" com as propriedades e valores:
+color: white;
+margin: 32px;
+
+-----------------------------------------------------------------------------------------------
+
+Aula - 69
+
+no arquivo html, dentro do elemento "section" que contém o id "key-features", adicione 
+um atributo "class" com o valor "key-feature__list" no elemento "ul". 
+
+adicione um atributo "class" com o valor "key-feature" nos elementos "li" dentro do elemento
+"ul" mencionado acima.
+
+adicione um atributo "class" com o valor "key-feature__description" nos elementos "p" dentro
+dos elementos "li" mencionados acima.
+
+no arquivo css, adicione um seletor ".key-feature__list" com as propriedades e valores:
+list-style: none;
+margin: 0;
+padding: 0;
+text-align: center;
+
+adicione um seletor ".key-feature" com as propriedades e valores:
+display: inline-block;
+width: 30%;
+vertical-align: top;
+
+adicione um seletor ".key-feature__description" com as propriedades e valores:
+text-align: center;
+font-weight: bold;
+color: white;
+font-size: 20px;
+
+no arquivo html, adicione nos elementos "div" dentro dos elementos "li" com a class
+"key-feature", um atributo "class" com o valor "key-feature__image".
+
+no arquivo css, adicione um seletor ".key-feature__image" com as propriedades e valores:
+background: #ffcede;
+width: 128px;
+height: 128px;
+border: 2px solid #424242;
+border-radius: 50%;
+margin: 0 auto;
+
+-----------------------------------------------------------------------------------------------
+
+Aula - 70
+
+no arquivo html, como irmão direto do elemento "main", adicione o elemento abaixo:
+<footer>
+	<nav>
+		<ul>
+			<li>
+				<a href="#">Suport</a>
+			</li>
+			<li>
+				<a href="#">Terms of Use</a>
+			</li>
+
+		</ul>
+	</nav>
+</footer>
+
+no elemento "footer", adicione um atributo "class" com o valor "main-footer".
+
+no arquivo css, adicione um seletor ".main-footer" com as propriedades e valores:
+background: black;
+padding: 32px;
+margin-top: 48px;
+
+no elemento "ul" dentro do elemento "footer", adicione um atributo "class" com valor
+"main-footer__links".
+
+nos elementos "li" dentro do elemento "ul" mencionando acima, adicione um atributo "class"
+com o valor "main-footer__link".
+
+no arquivo css, adicione o seletor ".main-footer__links" com as propriedades e valores:
+list-style: none;
+margin: 0;
+padding: 0;
+text-align: center;
+
+adicione o seletor ".main-footer__link" com as propriedades e valores:
+display: inline-block;
+margin: 0 16px;
+
+adicione o seletor ".main-footer__link a" com as propriedades e valores:
+color: white;
+text-decoration: none;
+
+adicione os pseudo-seletores ".main-footer__link a:hover" e ".main-footer__link a:active"
+para receberem as propriedades e valores:
+color: #ccc;
+
+-----------------------------------------------------------------------------------------------
+
+Aula - 72
+
+crie um diretório "packages" contendo um novo arquivo "index.html".
+
+copie o conteúdo do arquivo "index.html" da raiz do projeto e cole no arquivo "index.html"
+dentro da pasta "packages".
+
+no novo arquivo "index", exclua os elementos dentro do elemento "main".
+
+atualize os valores dos atributos "href" dos elementos "a" dentro do elemento "header".
+
+o primeiro elemento "a" deve apontar para o arquivo "index.html" na raiz do programa.
+
+o segundo elemento "a" deve apontar para o arquivo "index.html" do próprio elemento.
+
+o terceiro elemento "a" deve apontar para o arquivo "index.html" na subpasta "customers"
+da raiz do programa.
+
+o quarto elemento "a" deve apontar para o arquivo "index.html" na subpasta "start-hosting"
+da raiz do programa.
+
+exclua o link que referencia a fonte "Anton" do google fonts.
+
+na raiz do projeto, crie um arquivo "shared.css".
+
+recorte o código do arquivo "main.css" relacionado aos elementos "header" e "footer" e 
+cole no arquivo "shared.css".
+
+recorte o código do arquivo "main.css" relacionado aos elementos com a classe ".button"
+e cole no arquivo "shared.css".
+
+adicione um elemento "link" no arquivo raiz "index.html" e referencie o arquivo "shared.css"
+acima do link que referencia o arquivo "main.css".
+
+no arquivo "index.html" dentro da pasta "packages", atualize o valor do atributo "href" do
+elemento "link" que referencia o arquivo "main.css" para referenciar o aquivo "shared.css".
+
+na pasta "packages", crie um novo arquivo "packages.css".
+
+adicone um novo elemento "link" no arquivo "index.html" da pasta "packages" para fazer
+referencia ao arquivo "packages.css" abaixo do link que referencia o arquivo "shared.css".
+
+recorte os seletores "*" e "body" e suas propriedades e valores do arquivo "main.css"
+e cole no topo do arquivo "shared.css".
+
+-----------------------------------------------------------------------------------------------
+
+Aula - 73
+
+no arquivo "index.html" dentro da pasta "packages", adicione o elemento abaixo dentro do
+elemento "main":
+<section>
+            <a href="#">
+                <h1>Our PLUS Plan</h1>
+                <h2>The most popular choice of our customers.</h2>
+                <p>Benefit from increased storage and faster support to ensure that your mission-critical data and applications
+                    are always available!</p>
+            </a>
+        </section>
+        <section>
+            <a href="#">
+                <h1>Our FREE Plan</h1>
+                <h2>An extremely solid start into our hosting world.</h2>
+                <p>Get started immediately at zero cost!</p>
+            </a>
+        </section>
+        <section>
+            <a href="#">
+                <h1>Our PREMIUM Plan</h1>
+                <h2>All your enterprise needs. Instant support, guaranteed uptime. </h2>
+                <p>The best solution for small to large enterprises. Because hosting shouldn't be in the way!</p>
+            </a>
+        </section>
+
+-----------------------------------------------------------------------------------------------
+
+Aula - 74
+
+no arquivo css "packages", adicione um seletor "main" com as propriedades e valores:
+padding-top: 32px
+
+no arquivo "index.html" da pasta "packages", adicione um atributo "class" com o valor
+"package" em cada elemento "section".
+
+no arquivo "packages.css", adicione um seletor ".package" com as propriedades e valores:
+width: 80%;
+margin: 16px 0;
+border: 4px solid #0e4f1f;
+border-left: none;
+
+no arquivo "packages.css", adicione um seletor ".package a" com as propriedades e valores:
+text-decoration: none;
+color: inherit;
+display: block;
+padding: 32px;
+
+-----------------------------------------------------------------------------------------------
+
+Aula - 75
+
+no arquivo "index.html" da pasta "packages", adicione um atributo "class" com o valor
+"package__title" nos elementos "h1".
+
+nos elementos "h2" adicione um atributo "class" com o valor "package__subtitle".
+
+nos elementos "p" adicione um atributo "class" com o valor "package__info".
+
+no arquivo "packages.css", adicione um seletor ".package__subtitle" com as 
+propriedades e valores:
+color: #979797;
+
+no arquivo "packages.css", adicione um seletor ".package__info" com as 
+propriedades e valores:
+padding: 16px;
+border: 1px solid #0e4f1f;
+font-size: 20px;
+color: #0e4f1f;
+background: white;
+
+no html, adicione um atributo "id" no primeiro elemento "section" com o valor "plus".
+
+no segundo elemento "section", adicione um atributo "id" com o valor "free".
+
+no terceiro elemento "section", adicione um atributo "id" com o valor "premium".
+
+no arquivo "packages.css", adicione um seletor "#plus" com as propriedades e valores:
+background: rgba(213, 255, 220, 0.95);
+
+adicione um seletor "#free" com as propriedades e valores:
+background: rgba(234, 252, 237, 0.95);
+
+adicione um seletor "#premium" com as propriedades e valores:
+background: rgba(14, 79, 31, 0.95);
+
+adicione um seletor "#premium .package__title" com as propriedades e valores:
+color: white;
+
+adicione um seletor "#premium .package__subtitle" com as propriedades e valores:
+color: #bbb;
+
+abaixo do seletor ".package", selecione os pseudo-seletores ".package:hover" e
+".package:active" com as propriedades e valores:
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+border-color: #ff5454;
+
+-----------------------------------------------------------------------------------------------
+
+Aula - 76
+
+no seletor "#free", adicione as propriedades e valores:
+float: right;
+border-right: none;
+border-left: 4px solid #0e4f1f;
+text-align: right;
+
+no html, adicione um elemento "div" com o atributo "class" e valor "clearfix", após o
+segundo elemento "section".
+
+no arquivo css, acidione um seletor ".clearfix" com as propriedades e valores:
+clear: both;
+
+-----------------------------------------------------------------------------------------------
+
+Aula - 77
+
+no arquivo css, adicione os pseudo-seletores "#free:hover" e "#free:active" para receberem
+as propriedades e valores:
+border-left-color: #ff5454;
+
+comente a "rule" criada acima e nos pseudo-seletores ".package:hover" e ".package:active"
+adicione o valor "!important" na propriedade "border-color".
+
+-----------------------------------------------------------------------------------------------
+
+Aula - 78
+
+no arquivo "index.html" do diretório raiz, adicione um atributo "class" com o valor
+"plan__list" no elemento "div" que é irmão direto do elemento "h1" que conté a classe
+com o valor "section-title".
+
+no arquivo "main.css" adicione um seletor ".plan__list" com as propriedades e valores:
+width: 80%;
+margin: auto;
+text-align: center;
+
+
+
+
+ 
