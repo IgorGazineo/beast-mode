@@ -1,0 +1,193 @@
+Aula - 35
+
+crie uma cópia do arquivo "00-stargint" e renomei-o com o número do próximo exercício.
+
+no arquivo "app.ts", execute um console.log passando como argumento a string "Max".
+
+execute o comando "tsc app.ts".
+
+veja o resultado no console do browser.
+
+para entrar em "Watch Mode" e fazer a compilação automática do arquivo "app.ts, execute 
+os comandos "tsc app.ts --watch" ou "tsc app.ts -w".
+
+modifique o argumento do console.log para a string "in Watch Mode!". 
+
+veja o resultado no console do browser.
+
+para sair do modo Watch Mode, execute "Ctrl + c".
+
+--------------------------------------------------------------------------------------------
+
+Aula - 36
+
+crie um arquivo "analytics.ts".
+
+no arquivo html, crie um script que referencie o arquivo "analytics.js".
+
+no arquivo "analytics.ts" execute um console.log e passe como argumento a string 
+"in analytics.ts file".
+
+execute o comando "tsc --init" para iniciar um gerenciamento typescript no projeto.
+
+execute o comando "tsc". 
+
+execute o comando "tsc -w".
+
+modifique o argumento dos consoles nos arquivos typescript adicionando uma string 
+"update".
+
+veja o resultado no console do browser.
+
+--------------------------------------------------------------------------------------------
+
+Aula - 37
+
+saia do modo Watch Mode.
+
+abra o arquivo "tsconfig.json".
+
+adicione no "objeto" principal do arquivo json,  uma segunda propriedade "exclude" com 
+notação de objeto para arquivo json.
+
+como valor de "exclude", passe um array contendo caminhos de arquivos que não devem ser
+compilados pelo compilador typescript.
+
+como primeiro item do array, passe como exemplo o caminho do arquivo "analytics.ts".
+
+delete o arquivo "analytics.js".
+
+execute o comando "tsc".
+
+substitua o primeiro item do array "exclude" para excluir o arquivo "node_modules" da
+compilação.
+
+adicione um parâmetro "include" que recebe como valor, um array com caminhos de arquivos
+ou pastas de arquivos que devem ser compilados, excluindo todos os arquivos que não 
+estiverem nesse array. 
+
+adicione como primeiro item desse array, o caminho para o arquivo "analytics.ts".
+
+exclua o arquivo "app.js".
+
+execute o comando "tsc".
+
+adicione como segundo item do array "include", o caminho do arquivo "app.ts".
+
+execute o comando "tsc".
+
+exclua a propriedade "include".
+
+inclua a propriedade "files" que é um array que recebe caminhos de arquivos a serem
+compilados.
+
+adicione como primeiro item do array "files" o caminho para o arquivo "app.ts".
+
+exclua a propriedade "files".
+
+--------------------------------------------------------------------------------------------
+
+Aula - 38
+
+no arquivo "app.ts" declare uma variável "age" com a palavra-chave "let".
+
+atribua a variável "age" o valor do tipo number "30".
+
+execute o comando "tsc".
+
+confira o arquivo "app.js".
+
+no arquivo "tsconfig.json", modifique o valor da propriedade "target" para "es6".
+
+execute o comando "tsc".
+
+confira o arquivo "app.js".
+
+--------------------------------------------------------------------------------------------
+
+Aula - 39
+
+no elemento "body" do arquivo html, adicione um elemento "button" com o conteúdo
+"Click Me". 
+
+delete o código no arquivo "app.ts".
+
+no arquivo "app.ts", crie uma constante "button" que recebe a referência do elemento 
+"button" do arquivo html.
+
+execute o método "addEventListener" na constante "button" passando como primeiro argumento
+a string "click" e como segundo, uma função que exibe no console.log a string "Clicked!".
+
+para corrigir o erro, adicione uma exclamação "!" no final da expressão que retorna a 
+referência do elemento "button".
+
+execute o comando "tsc".
+
+no arquivo "tsconfig.json", descomente a propriedade "lib" do "objeto" "compilerOptions".
+
+execute o comando "tsc".
+
+abra o arquivo "app.ts".
+
+no arquivo "tsconfig.json", passe como primeiro valor do array "lib", a strig "dom".
+
+abra o arquivo "app.ts".
+
+no arquivo "tsconfig.json", passe como segundo valor do array "lib", a strig "es6".
+
+passe como terceiro valor do array "lib", a strig "dom.iterable".
+
+passe como quarto valor do array "lib", a strig "scripthost".
+
+--------------------------------------------------------------------------------------------
+
+Aula - 41
+
+execute o comando "tsc".
+
+inspecione os arquivos baixados pelo browser na aba "Sources".
+
+no arquivo "tsconfig.json", descomente a propriedade "sourceMap".
+
+execute o comando "tsc".
+
+abra novamente a aba "Sources" no browser.
+
+comente a propriedade "sourceMap" e exclua os arquivos que foram gerados.
+
+--------------------------------------------------------------------------------------------
+
+Aula - 42
+
+crie as pastas "src" e "dist".
+
+passe os arquivos com extenção ".ts" para a pasta "src".
+
+delete os arquivos com extenção ".js".
+
+execute o comando "tsc".
+
+delete novamente os arquivos com extenção ".js".
+
+no arquivo "tsconfig.json", descomente a propriedade "outDir".
+
+passe como valor, a string "./dist".
+
+execute o comando "tsc".
+
+verifique a pasta "dist".
+
+no arquivo html, ajuste os caminhos dos scripts que fazem referência aos arquivos js.
+
+no arquivo "tsconfig.json", descomente a propriedade "rootDir".
+
+passe como valor da propriedade "rootDir", a string "./src".
+
+--------------------------------------------------------------------------------------------
+
+Aula - 43
+
+
+
+
+
