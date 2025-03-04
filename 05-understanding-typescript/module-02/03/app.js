@@ -1,22 +1,22 @@
-function add(n1, n2, showResult, phrase) {
-    var result = n1 + n2;
-    if (showResult) {
-        console.log(phrase + result);
-    }
-    else {
-        return result;
-    }
+function add(n1, n2) {
+    return n1 + n2;
 }
-var number1 = 5;
-var number2 = 2.8;
-var printResult = true;
-var resultPhrase = "Result is: ";
-add(number1, number2, printResult, resultPhrase);
+var combineValues;
+combineValues = add;
+console.log(combineValues(8, 8));
+function addAndHandle(n1, n2, cb) {
+    var result = n1 + n2;
+    cb(result);
+}
+addAndHandle(10, 5, function (num) {
+    console.log(num);
+});
 /*
-Aula - 15
+Aula - 29
 
+teste a função "addAndHandle" executando-a, passando como primeiro argumento o valor 10 e
+como segundo o valor 5.
 
-compile o arquivo e verifique o resultado no browser.
-
-corrija o erro para que o console.lo exiba o resultado correto.
+como terceiro uma função que contém um parâmetro "result" e exibe o resultado de
+"result" em um console.log.
 */

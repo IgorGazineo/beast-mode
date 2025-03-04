@@ -186,7 +186,7 @@ Aula - 25
 
 crie uma tipagem customizada "Combinable" com a palavra-chave "type".
 
-a tipagem "COmbinable" deve aceitar os tipos "number" ou "string".
+a tipagem "Combinable" deve aceitar os tipos "number" ou "string".
 
 crie uma variável "value1" tipando-a com a tipagem "Combinable".
 
