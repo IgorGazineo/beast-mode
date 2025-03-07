@@ -1,0 +1,85 @@
+Aula - 28
+
+crie uma pasta e nomei-a com o número do proximo exercício.
+
+dentro, crie um arquivo "objects-101.js".
+
+no arquivo "objects-101.js", crie uma variável "myBook".
+
+atribua a essa variável um objeto com 3 propriedades.
+
+uma propriedade "title" com o valor "1984" do tipo string.
+
+uma propriedade "author" com o valor "George Orwell" do tipo string.
+
+uma propriedade "pageCount" com o valor "326" do tipo number.
+
+execute um console.log passando como argumento uma string no modelo abaixo:
+"1984 by George Orwell."
+
+utilize o objeto criado para exibir a string acima.
+
+-------------------------------------------------------------------------------------------
+
+Aula - 29
+
+crie um arquivo "objects-functions.js".
+
+copie e cole o código abaixo neste arquivo:
+
+"
+	let myBook = {
+		title: '1984',
+		author: 'George Orwell',
+		pageCount: 326
+	}
+
+	let otherBook = {
+		title: 'A Peoples History',
+		author: 'Howard Zimn',
+		pageCount: 723
+	}
+"
+
+crie uma função "getSummary" que tem um parâmetro "book".
+
+o parâmetro "book" deve armazenar um objeto com as propriedades dos objetos acima.
+
+essa função deve exibir no console uma string utilizando as propriedades do parâmetro
+no modelo abaixo:
+"BOOK_TITLE by BOOK_AUTHOR."
+
+execute a função, passando como argumento os objetos "myBook" e "otherBook".
+
+---------------------------------------------------------------------------------------------
+
+Aula - 30
+
+crie um arquivo "teste.js" e dentro deste arquivo:
+
+crie uma variável "obj1" e atribua a ela um objeto com as propriedades "name" e "age".
+
+crie uma variável "obj2" e atribua a ela o valor da variável "obj1".
+
+reatribua a variável "obj2" um objeto vazio.
+
+exiba no console.log os valores de "obj1" e "obj2".
+
+---------------------------------------------------------------------------------------------
+
+Aula - 33
+
+crie uma variável "password" que recebe o valor de uma string "abc123password456".
+
+cheque se existe a string "password" no valor da variável "password" através do método
+"icludes".
+
+crie uma variável "name" que recebe o valor de uma string " Andrew Mead " com os espaços
+em branco.
+
+exclua os espaços utilizando o método "trim".
+
+
+
+
+
