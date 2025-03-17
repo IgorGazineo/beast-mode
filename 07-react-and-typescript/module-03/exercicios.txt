@@ -1,0 +1,99 @@
+Aula - 28
+
+crie uma pasta e nomei-a com o número do próximo exercício.
+
+execute um comando "npm create vite@latest ." para criar um projeto react.
+
+selecione as opções "React" e "TypeScript".
+
+------------------------------------------------------------------------------------------
+
+Aula - 29
+
+delete as pastas "src" e "public".
+
+copie as pastas "src" e "public" dentro da pasta "public-src" e cole-as no seu projeto.
+
+execute o comando "npm install".
+
+execute o comando "npm run dev".
+
+------------------------------------------------------------------------------------------
+
+Aula - 30
+
+na pasta "src", adicione uma pasta "components".
+
+na pasta "componentes", adicione um arquivo "CourseGoal.tsx".
+
+no arquivo "CourseGoal.tsx", exporte por padrão uma função "CourseGoal".
+
+a função "CourseGoal" deve retornar um componente "article" que contém uma "div" e 
+um "button".
+
+a div deve conter um elemento "h2" com o conteúdo "TITLE" e um elemento "p" com o conteúdo
+"DESCRIPTION"
+
+o elemento "button" deve conter o conteúdo "Delete".
+
+importe o componente "CourseGoal" no arquivo "App.tsx".
+
+na função "App", delete o retorno da função.
+
+adicione um novo retorno com um elemento "main" que contém o componente "CourseGoal".
+
+na função "CourseGoal" adicione um parâmetro "props".
+
+------------------------------------------------------------------------------------------
+
+Aula - 31
+
+no arquivo "App.tsx", adicione uma propriedade "title" no componente "CourseGoal".
+
+para a propriedade "title", adicione o valor "Learn React + TS".
+
+adicione uma segunda propriedade "description" com o valor "Learn it from the ground up".
+
+no arquivo "CourseGoal.tsx", faça a tipagem do parâmetro "props" da função "CourseGoal".
+
+a tipagem deve ser para um objeto que tem uma propriedade "title" com o valor de string, e
+uma propriedade "description" com o valor de string.
+
+use o valor da propriedade "title" do parâmetro "props" da função "CourseGoal" para gerar
+conteúdo do elemento "h2".
+
+use o valor da propriedade "description" do parâmetro "props" da função "CourseGoal" para gerar
+conteúdo do elemento "p".
+
+------------------------------------------------------------------------------------------
+
+Aula - 32
+
+no arquivo "CourseGoal.tsx", crie uma tipagem customizada "CourseGoalProps" com a 
+palavra-chave "type".
+
+essa tipagem deve servir para um objeto com as propriedades "title" e "description" que
+contêm o valor de string como tipo de dado.
+
+ao invés de fazer uma tipagem literal, use a tipagem "CourseGoalProps" no parâmetro "props"
+da função "CourseGoal".
+
+------------------------------------------------------------------------------------------
+
+Aula - 33
+
+------------------------------------------------------------------------------------------
+
+Aula - 35
+
+------------------------------------------------------------------------------------------
+
+Aula - 36
+
+
+
+
+
+
+
+
